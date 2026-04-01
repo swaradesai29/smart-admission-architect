@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+  <title>Smart Admission Architect</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: { fontFamily: { sans: ['DM Sans','sans-serif'], display: ['Syne','sans-serif'] } } }
+    }
+  </script>
+ 
+
+</head>
+<body class="bg-slate-50 min-h-screen">
+
+<!-- ═══ HEADER ═══ -->
+<header class="hero-bg text-white px-4 sm:px-6 py-8">
+  <div class="max-w-6xl mx-auto">
+    <div class="flex items-start justify-between mb-6">
+      <div>
+        <h1 class="font-display text-2xl sm:text-3xl font-extrabold tracking-tight">
+          Smart Admission <span class="text-blue-400">Architect</span>
+        </h1>
+        <p class="text-slate-400 text-sm mt-1">MHT-CET 2026 · 102 colleges across Maharashtra</p>
+      </div>
+      <span class="hidden sm:flex items-center gap-2 bg-blue-500/20 border border-blue-400/30 text-blue-300 text-xs font-semibold px-4 py-2 rounded-full mt-1">
+        <span class="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>CAP Round 2026
+      </span>
+    </div>
+
+    <!-- Input panel -->
+    <div class="bg-white/10 backdrop-blur border border-white/20 rounded-2xl p-4 sm:p-5">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 items-end">
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 mb-2 uppercase tracking-wide">Percentile</label>
+          <input id="pctInput" type="number" value="88" min="0" max="100" step="0.01"
+            class="w-full bg-white/10 border border-white/20 rounded-xl px-3 py-3 text-white text-sm"/>
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 mb-2 uppercase tracking-wide">Category</label>
+          <select id="catSelect" class="w-full bg-white/10 border border-white/20 rounded-xl px-3 py-3 text-white text-sm">
+            <option class="text-slate-900 bg-white">OPEN</option>
+            <option class="text-slate-900 bg-white">OBC</option>
+            <option class="text-slate-900 bg-white">SC</option>
+            <option class="text-slate-900 bg-white">ST</option>
+            <option class="text-slate-900 bg-white">EWS</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 mb-2 uppercase tracking-wide">Branch</label>
+          <select id="branchSelect" class="w-full bg-white/10 border border-white/20 rounded-xl px-3 py-3 text-white text-sm">
+            <option>Computer Engineering</option>
+            <option>Information Technology</option>
+            <option>Electronics Engineering</option>
+            <option>Mechanical Engineering</option>
+            <option>Civil Engineering</option>
+          </select>
+        </div>
+        <button id="predictBtn" onclick="runPredict()"
+          class="w-full bg-blue-500 hover:bg-blue-600 active:scale-95 text-white font-bold py-3 px-5 rounded-xl transition-all text-sm shadow-lg shadow-blue-500/30">
+          Predict →
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ═══ MAIN ═══ -->
+<main class="max-w-6xl mx-auto px-4 py-5 space-y-5">
+
+  <!-- Metrics -->
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+    <div class="bg-white rounded-2xl border border-slate-200 p-4 shadow-sm fade-in">
+      <p class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-1">Matched</p>
+      <p id="mTotal" class="font-display text-4xl font-extrabold text-slate-800">—</p>
+      <p class="text-xs text-slate-400 mt-1">colleges found</p>
+    </div>
+    <div class="bg-white rounded-2xl border border-slate-200 p-4 shadow-sm fade-in" style="animation-delay:.05s">
+      <p class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-1">Safe bets</p>
+      <p id="mSafe" class="font-display text-4xl font-extrabold text-emerald-600">—</p>
+      <p class="text-xs text-slate-400 mt-1">&gt;75% chance</p>
+    </div>
+    <div class="bg-white rounded-2xl border border-slate-200 p-4 shadow-sm fade-in" style="animation-delay:.10s">
+      <p class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-1">On the edge</p>
+      <p id="mTarget" class="font-display text-4xl font-extrabold text-amber-500">—</p>
+      <p class="text-xs text-slate-400 mt-1">40–75% chance</p>
+    </div>
+    <div class="bg-white rounded-2xl border border-slate-200 p-4 shadow-sm fade-in" style="animation-delay:.15s">
+      <p class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-1">Reach</p>
+      <p id="mReach" class="font-display text-4xl font-extrabold text-red-500">—</p>
+      <p class="text-xs text-slate-400 mt-1">&lt;40% chance</p>
+    </div>
+  </div>
+
+  <!-- Two-col layout -->
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+
+    <!-- LEFT: College List -->
+    <div class="lg:col-span-2 space-y-3">
+
+      <!-- Filter pills -->
+      <div class="flex flex-wrap gap-2">
+        <button id="pill-all"    class="pill text-xs font-semibold px-4 py-1.5 rounded-full border border-blue-400 pill-active transition-all"   onclick="setFilter('all',this)">All</button>
+        <button id="pill-safe"   class="pill text-xs font-semibold px-4 py-1.5 rounded-full border border-slate-200 bg-white text-slate-500 hover:border-blue-300 hover:text-blue-500 transition-all" onclick="setFilter('safe',this)">✅ Safe bets</button>
+        <button id="pill-target" class="pill text-xs font-semibold px-4 py-1.5 rounded-full border border-slate-200 bg-white text-slate-500 hover:border-blue-300 hover:text-blue-500 transition-all" onclick="setFilter('target',this)">🎯 Target</button>
+        <button id="pill-reach"  class="pill text-xs font-semibold px-4 py-1.5 rounded-full border border-slate-200 bg-white text-slate-500 hover:border-blue-300 hover:text-blue-500 transition-all" onclick="setFilter('reach',this)">🚀 Reach</button>
+        <button id="pill-mumbai" class="pill text-xs font-semibold px-4 py-1.5 rounded-full border border-slate-200 bg-white text-slate-500 hover:border-blue-300 hover:text-blue-500 transition-all" onclick="setFilter('mumbai',this)">📍 Mumbai</button>
+        <button id="pill-pune"   class="pill text-xs font-semibold px-4 py-1.5 rounded-full border border-slate-200 bg-white text-slate-500 hover:border-blue-300 hover:text-blue-500 transition-all" onclick="setFilter('pune',this)">📍 Pune</button>
+        <button id="pill-auto"   class="pill text-xs font-semibold px-4 py-1.5 rounded-full border border-slate-200 bg-white text-slate-500 hover:border-blue-300 hover:text-blue-500 transition-all" onclick="setFilter('auto',this)">🏛 Autonomous</button>
+        <button id="pill-govt"   class="pill text-xs font-semibold px-4 py-1.5 rounded-full border border-slate-200 bg-white text-slate-500 hover:border-blue-300 hover:text-blue-500 transition-all" onclick="setFilter('govt',this)">🏛 Govt</button>
+      </div>
+
+      <p class="text-xs text-slate-400 italic">Click a college to see its cutoff trend · Click 2 to compare below</p>
+
+      <!-- Loading / empty state -->
+      <div id="loadingState" class="text-center py-10 text-slate-400 text-sm">
+        Enter your details above and hit <strong>Predict</strong> (or press <strong>Enter</strong>) to see results.
+      </div>
+
+      <!-- College cards -->
+      <div id="collegeList" class="space-y-2.5"></div>
+
+      <!-- Show More button -->
+      <div id="showMoreWrap" class="hidden pt-1">
+        <button onclick="showMore()"
+          class="w-full py-2.5 text-sm font-semibold text-blue-600 bg-blue-50 hover:bg-blue-100 border border-blue-200 rounded-xl transition-all">
+          Show more colleges ↓
+        </button>
+      </div>
+    </div>
+
+    <!-- RIGHT: Charts -->
+    <div class="space-y-4">
+
+      <!-- Cutoff trend chart (moved to top) -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-4 shadow-sm">
+        <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wide mb-1">Cutoff Trend 2023–2025</h3>
+        <p class="text-xs text-slate-400 italic mb-3">Select colleges from list to compare</p>
+        <div class="relative h-44">
+          <canvas id="trendChart"></canvas>
+        </div>
+      </div>
+
+      <!-- ROI score -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-4 shadow-sm">
+        <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wide mb-1">ROI Score</h3>
+        <p class="text-xs text-slate-400 italic mb-3">Best value colleges for your percentile</p>
+        <div id="roiGrid" class="space-y-2.5"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Compare Matrix -->
+  <div id="compareBar" class="hidden bg-white rounded-2xl border-2 border-blue-500 p-5 shadow-lg fade-in">
+    <div class="flex items-center gap-2 mb-4">
+      <span class="text-lg">⚖️</span>
+      <h3 class="font-display text-base font-extrabold text-slate-800">Side-by-side Comparison</h3>
+      <span id="cmpTitle" class="text-sm text-slate-400 font-normal"></span>
+    </div>
+    <div id="compareGrid" class="grid grid-cols-1 sm:grid-cols-2 gap-6"></div>
+  </div>
+
+</main>
+
+<footer class="text-center text-xs text-slate-400 py-6 mt-2">
+  Smart Admission Architect · 102 Maharashtra colleges · MHT-CET 2026 · Dummy data for demo
+</footer>
+
+<script>
+/* ══════════════════════════════════════════════════
+   STATE
+══════════════════════════════════════════════════ */
+let DB         = null;
+let RESULTS    = [];        // full sorted results for current query
+let activeFilter = 'all';
+let selectedIds  = [];      // indices into RESULTS for trend/compare
+let trendChart   = null;
+const PAGE_SIZE  = 5;       // cards visible before "show more"
+let visibleCount = PAGE_SIZE;
+
+/* ══════════════════════════════════════════════════
+   DATA LOADING
+══════════════════════════════════════════════════ */
+async function loadData() {
+  try {
+    const res = await fetch('/data/data.json');
+    if (!res.ok) throw new Error('not found');
+    DB = await res.json();
+  } catch(e) {
+    console.warn('data.json not found:', e.message);
+    DB = null;
+  }
+}
+
+/* ══════════════════════════════════════════════════
+   PREDICTION ENGINE
+   FIX: probability formula now correctly maps:
+     gap >= +3  → ~98% (well above cutoff)
+     gap =   0  → ~50%
+     gap <= -3  → ~2%  (well below cutoff)
+   Using a steeper slope of 16 so the range is
+   ±3 percentile points = full 2–98% range.
+══════════════════════════════════════════════════ */
+function computeSlope(v23, v24, v25) {
+  // Simple linear regression across 3 years (x = 0,1,2)
+  const pts = [[0,v23],[1,v24],[2,v25]].filter(p => p[1] != null && !isNaN(p[1]));
+  if (pts.length < 2) return 0;
+  const n = pts.length;
+  const sx  = pts.reduce((s,p) => s+p[0], 0);
+  const sy  = pts.reduce((s,p) => s+p[1], 0);
+  const sxy = pts.reduce((s,p) => s+p[0]*p[1], 0);
+  const sxx = pts.reduce((s,p) => s+p[0]*p[0], 0);
+  const denom = n*sxx - sx*sx;
+  return denom === 0 ? 0 : (n*sxy - sx*sy) / denom;
+}
+
+function computeChance(userPct, predictedCutoff) {
+  // Gap of +3 or more → 98%; gap of -3 or less → 2%
+  // slope = 16 maps ±3 gap to ±48 around 50
+  const gap = userPct - predictedCutoff;
+  return Math.min(98, Math.max(2, Math.round(50 + gap * 16)));
+}
+
+function computeROI(avgPkg, annualFee) {
+  if (!annualFee || annualFee <= 0) return 0;
+  return Math.round((avgPkg / (annualFee / 100000)) * 10) / 10;
+}
+
+function classifyTier(chance) {
+  if (chance > 75) return 'safe';
+  if (chance >= 40) return 'target';
+  return 'reach';
+}
+
+function predict(percentile, category, branchName) {
+  if (!DB) return [];
+
+  // branch_id == branch_code in this dataset
+  const branchObj = DB.branches.find(b => b.branch_name === branchName);
+  if (!branchObj) return [];
+  const branchCode = branchObj.branch_id;   // e.g. 'CS', 'ME'
+
+  const results = [];
+
+  for (const college of DB.colleges) {
+    // Find cutoff: try exact category first, fallback to OPEN
+    let cutoffRow = DB.cutoffs.find(c =>
+      c.college_id  === college.college_id &&
+      c.branch_code === branchCode &&
+      c.category    === category
+    );
+    if (!cutoffRow) {
+      cutoffRow = DB.cutoffs.find(c =>
+        c.college_id  === college.college_id &&
+        c.branch_code === branchCode &&
+        c.category    === 'OPEN'
+      );
+    }
+    if (!cutoffRow) continue; // college doesn't offer this branch
+
+    const slope     = computeSlope(cutoffRow.cutoff_2023, cutoffRow.cutoff_2024, cutoffRow.cutoff_2025);
+    const predicted = Math.min(100, Math.max(0,
+      Math.round((cutoffRow.cutoff_2025 + slope) * 100) / 100
+    ));
+    const chance    = computeChance(percentile, predicted);
+
+    const pl  = DB.placements.find(p => p.college_id === college.college_id) || {};
+    const fee = DB.fees.find(f => f.college_id === college.college_id) || {};
+    const roi = computeROI(pl.avg_pkg || 0, fee.annual_fee || 1);
+
+    results.push({
+      college_id:    college.college_id,
+      short_name:    college.short_name,
+      location:      college.location,
+      autonomous:    college.autonomous,
+      naac_grade:    college.naac_grade,
+      nirf_rank:     college.nirf_rank,
+      type:          college.type,
+      branch:        branchName,
+      cutoff_2023:   cutoffRow.cutoff_2023,
+      cutoff_2024:   cutoffRow.cutoff_2024,
+      cutoff_2025:   cutoffRow.cutoff_2025,
+      annual_shift:  Math.round(slope * 100) / 100,
+      predicted_2026: predicted,
+      chance,
+      tier:          classifyTier(chance),
+      avg_pkg:       pl.avg_pkg       || 0,
+      highest_pkg:   pl.highest_pkg   || 0,
+      placement_pct: pl.placement_pct || 0,
+      top_recruiters: pl.top_recruiters || [],
+      annual_fee:    fee.annual_fee    || 0,
+      total_4yr_fee: fee.total_4yr_fee || 0,
+      scholarship:   fee.scholarship   || false,
+      roi_score:     roi,
+    });
+  }
+
+  return results.sort((a, b) => b.chance - a.chance);
+}
+
+/* ══════════════════════════════════════════════════
+   TIER CONFIG
+══════════════════════════════════════════════════ */
+function tierConfig(t) {
+  if (t === 'safe')   return { dot:'bg-emerald-500', badge:'bg-emerald-100 text-emerald-800', label:'Safe bet', bar:'#10b981' };
+  if (t === 'target') return { dot:'bg-amber-400',   badge:'bg-amber-100 text-amber-800',    label:'Target',   bar:'#f59e0b' };
+  return                     { dot:'bg-red-500',     badge:'bg-red-100 text-red-700',        label:'Reach',    bar:'#ef4444' };
+}
+
+/* ══════════════════════════════════════════════════
+   FILTER PILLS
+══════════════════════════════════════════════════ */
+function setFilter(f, el) {
+  activeFilter = f;
+  visibleCount = PAGE_SIZE; // reset pagination on filter change
+  document.querySelectorAll('.pill').forEach(p => {
+    p.classList.remove('pill-active');
+    p.style.cssText = '';
+  });
+  el.classList.add('pill-active');
+  renderList();
+}
+
+function getFiltered() {
+  let list = [...RESULTS];
+  if (activeFilter === 'safe')   list = list.filter(c => c.chance > 75);
+  if (activeFilter === 'target') list = list.filter(c => c.chance >= 40 && c.chance <= 75);
+  if (activeFilter === 'reach')  list = list.filter(c => c.chance < 40);
+  if (activeFilter === 'mumbai') list = list.filter(c => c.location === 'Mumbai');
+  if (activeFilter === 'pune')   list = list.filter(c => c.location === 'Pune');
+  if (activeFilter === 'auto')   list = list.filter(c => c.autonomous);
+  if (activeFilter === 'govt')   list = list.filter(c => c.type && c.type.toLowerCase().includes('government'));
+  return list;
+}
+
+/* ══════════════════════════════════════════════════
+   RENDER COLLEGE LIST  (top 5 + show more)
+══════════════════════════════════════════════════ */
+function renderList() {
+  const all  = getFiltered();
+  const el   = document.getElementById('collegeList');
+  const wrap = document.getElementById('showMoreWrap');
+
+  if (all.length === 0) {
+    el.innerHTML = '<div class="text-center py-8 text-slate-400 text-sm">No colleges match this filter.</div>';
+    wrap.classList.add('hidden');
+    return;
+  }
+
+  const slice = all.slice(0, visibleCount);
+
+  el.innerHTML = slice.map(c => {
+    const idx = RESULTS.indexOf(c);
+    const cfg = tierConfig(c.tier);
+    const sel = selectedIds.includes(idx);
+    const isGovt = c.type && c.type.toLowerCase().includes('government');
+    return `
+    <div class="college-item fade-in flex items-center gap-3 bg-white rounded-2xl border
+      ${sel ? 'border-blue-500 ring-2 ring-blue-200 bg-blue-50/60' : 'border-slate-200 hover:border-blue-300 hover:shadow-md'}
+      p-3.5 cursor-pointer transition-all duration-200 shadow-sm"
+      onclick="selectCollege(${idx})">
+      <div class="w-2.5 h-2.5 rounded-full flex-shrink-0 ${cfg.dot}"></div>
+      <div class="flex-1 min-w-0">
+        <div class="flex items-center gap-1.5 flex-wrap">
+          <span class="font-semibold text-sm text-slate-800">${c.short_name}</span>
+          <span class="text-xs font-semibold px-2 py-0.5 rounded-full ${cfg.badge}">${cfg.label}</span>
+          ${c.autonomous ? '<span class="text-xs font-semibold px-1.5 py-0.5 rounded-full bg-violet-100 text-violet-700">Auto</span>' : ''}
+          ${isGovt      ? '<span class="text-xs font-semibold px-1.5 py-0.5 rounded-full bg-slate-100 text-slate-600">Govt</span>' : ''}
+        </div>
+        <p class="text-xs text-slate-400 mt-0.5">
+          ${c.location}
+          &middot; Cutoff: <strong>${c.predicted_2026}%ile</strong>
+          &middot; Pkg: <strong>${c.avg_pkg} LPA</strong>
+          &middot; ₹${Math.round(c.annual_fee/1000)}K/yr
+          &middot; ROI <strong>${c.roi_score}x</strong>
+        </p>
+      </div>
+      <div class="w-16 flex-shrink-0 text-right">
+        <div class="text-xs font-bold text-slate-700 mb-1">${c.chance}%</div>
+        <div class="h-1.5 bg-slate-100 rounded-full overflow-hidden">
+          <div class="bar-fill h-full rounded-full" style="width:${c.chance}%; background:${cfg.bar};"></div>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+
+  // Show/hide "show more" button
+  if (visibleCount < all.length) {
+    wrap.classList.remove('hidden');
+    wrap.querySelector('button').textContent =
+      `Show ${Math.min(PAGE_SIZE, all.length - visibleCount)} more colleges (${all.length - visibleCount} remaining) ↓`;
+  } else {
+    wrap.classList.add('hidden');
+  }
+}
+
+function showMore() {
+  visibleCount += PAGE_SIZE;
+  renderList();
+}
+
+/* ══════════════════════════════════════════════════
+   SELECT + COMPARE
+══════════════════════════════════════════════════ */
+function selectCollege(idx) {
+  if (selectedIds.includes(idx)) {
+    selectedIds = selectedIds.filter(i => i !== idx);
+  } else {
+    if (selectedIds.length >= 2) selectedIds.shift();
+    selectedIds.push(idx);
+  }
+  renderList();
+  renderCompare();
+  updateTrend();
+}
+
+function renderCompare() {
+  const bar = document.getElementById('compareBar');
+  if (selectedIds.length !== 2) { bar.classList.add('hidden'); return; }
+
+  bar.classList.remove('hidden');
+  const [a, b] = selectedIds.map(i => RESULTS[i]);
+  document.getElementById('cmpTitle').textContent = `— ${a.short_name} vs ${b.short_name}`;
+
+  const rows = [
+    ['Predicted 2026',    `${a.predicted_2026}%ile`,                    `${b.predicted_2026}%ile`                   ],
+    ['Annual Shift',      `${a.annual_shift > 0 ? '+':''}${a.annual_shift}/yr`, `${b.annual_shift > 0 ? '+':''}${b.annual_shift}/yr`],
+    ['Admission Chance',  `${a.chance}%`,                                `${b.chance}%`                              ],
+    ['Tier',              tierConfig(a.tier).label,                      tierConfig(b.tier).label                    ],
+    ['Avg Package',       `${a.avg_pkg} LPA`,                            `${b.avg_pkg} LPA`                          ],
+    ['Highest Package',   `${a.highest_pkg} LPA`,                        `${b.highest_pkg} LPA`                      ],
+    ['Placement %',       `${a.placement_pct}%`,                         `${b.placement_pct}%`                       ],
+    ['Annual Fee',        `₹${Math.round(a.annual_fee/1000)}K`,          `₹${Math.round(b.annual_fee/1000)}K`        ],
+    ['4-yr Total',        `₹${Math.round(a.total_4yr_fee/1000)}K`,       `₹${Math.round(b.total_4yr_fee/1000)}K`     ],
+    ['ROI Score',         `${a.roi_score}x`,                             `${b.roi_score}x`                           ],
+    ['Location',          a.location,                                    b.location                                  ],
+    ['NAAC Grade',        a.naac_grade,                                  b.naac_grade                                ],
+    ['Autonomous',        a.autonomous ? 'Yes' : 'No',                   b.autonomous ? 'Yes' : 'No'                 ],
+    ['Scholarship',       a.scholarship ? 'Yes' : 'No',                  b.scholarship ? 'Yes' : 'No'                ],
+  ];
+
+  const makeCol = (c, valIdx) => `
+    <div>
+      <div class="flex items-center gap-2 mb-3">
+        <div class="w-2.5 h-2.5 rounded-full ${tierConfig(c.tier).dot}"></div>
+        <h4 class="font-display font-extrabold text-slate-800">${c.short_name}</h4>
+      </div>
+      ${rows.map(r => `
+        <div class="flex justify-between py-2 border-b border-slate-100 text-sm">
+          <span class="text-slate-400">${r[0]}</span>
+          <span class="font-semibold text-slate-800">${r[valIdx]}</span>
+        </div>`).join('')}
+      <div class="mt-3">
+        <p class="text-xs text-slate-400 mb-1">Top Recruiters</p>
+        <p class="text-xs text-slate-600">${c.top_recruiters.join(' · ')}</p>
+      </div>
+    </div>`;
+
+  document.getElementById('compareGrid').innerHTML = makeCol(a, 1) + makeCol(b, 2);
+}
+
+/* ══════════════════════════════════════════════════
+   TREND CHART — updates whenever selection changes
+   OR on new predict (shows top 2 by default)
+══════════════════════════════════════════════════ */
+function updateTrend() {
+  const years   = ['2023', '2024', '2025'];
+  const palette = ['#2563eb', '#ef4444', '#10b981', '#f59e0b'];
+
+  // Use selected colleges; if none selected, show top 2 from current results
+  const toPlot = selectedIds.length > 0
+    ? selectedIds.map((idx, i) => ({ c: RESULTS[idx], color: palette[i] }))
+    : RESULTS.slice(0, 2).map((c, i) => ({ c, color: palette[i] }));
+
+  if (toPlot.length === 0) return;
+
+  const datasets = toPlot.map(({ c, color }) => ({
+    label:              c.short_name,
+    data:               [c.cutoff_2023, c.cutoff_2024, c.cutoff_2025],
+    borderColor:        color,
+    backgroundColor:    color + '20',
+    fill:               true,
+    borderWidth:        2,
+    pointRadius:        4,
+    pointBackgroundColor: color,
+    tension:            0.4,
+  }));
+
+  if (trendChart) trendChart.destroy();
+  trendChart = new Chart(document.getElementById('trendChart'), {
+    type: 'line',
+    data: { labels: years, datasets },
+    options: {
+      responsive:        true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          display: true,
+          labels: { boxWidth: 10, font: { size: 10 }, color: '#64748b' }
+        }
+      },
+      scales: {
+        x: { ticks: { font: { size: 10 }, color: '#94a3b8' }, grid: { display: false } },
+        y: {
+          ticks: { font: { size: 10 }, color: '#94a3b8', callback: v => v + '%' },
+          grid:  { color: 'rgba(148,163,184,0.12)' }
+        }
+      }
+    }
+  });
+}
+
+/* ══════════════════════════════════════════════════
+   ROI CHART — shows most optimal colleges for
+   current query (sorted by roi_score, updated on predict)
+══════════════════════════════════════════════════ */
+function renderROI() {
+  // Top 8 by ROI from current RESULTS (already filtered by branch/category/percentile)
+  const top = [...RESULTS].sort((a, b) => b.roi_score - a.roi_score).slice(0, 8);
+  if (top.length === 0) {
+    document.getElementById('roiGrid').innerHTML = '<p class="text-xs text-slate-400">No data yet.</p>';
+    return;
+  }
+  const max = top[0].roi_score || 1;
+  document.getElementById('roiGrid').innerHTML = top.map(c => `
+    <div class="flex items-center gap-2 text-xs">
+      <span class="w-20 text-slate-500 truncate font-medium flex-shrink-0" title="${c.short_name}">
+        ${c.short_name.split(' ')[0]}
+      </span>
+      <div class="flex-1 h-1.5 bg-slate-100 rounded-full overflow-hidden">
+        <div class="bar-fill h-full rounded-full bg-blue-500"
+             style="width:${Math.round(c.roi_score / max * 100)}%"></div>
+      </div>
+      <span class="w-8 text-right font-bold text-slate-700 flex-shrink-0">${c.roi_score}x</span>
+    </div>`).join('');
+}
+
+/* ══════════════════════════════════════════════════
+   METRICS
+══════════════════════════════════════════════════ */
+function updateMetrics() {
+  const safe   = RESULTS.filter(c => c.chance > 75).length;
+  const target = RESULTS.filter(c => c.chance >= 40 && c.chance <= 75).length;
+  const reach  = RESULTS.filter(c => c.chance < 40).length;
+  document.getElementById('mTotal').textContent  = RESULTS.length;
+  document.getElementById('mSafe').textContent   = safe;
+  document.getElementById('mTarget').textContent = target;
+  document.getElementById('mReach').textContent  = reach;
+}
+
+/* ══════════════════════════════════════════════════
+   PREDICT
+══════════════════════════════════════════════════ */
+async function runPredict() {
+  if (!DB) await loadData();
+  if (!DB) {
+    alert('Could not load data.json — make sure it is in the same folder as this HTML file.');
+    return;
+  }
+
+  const pct    = parseFloat(document.getElementById('pctInput').value) || 0;
+  const cat    = document.getElementById('catSelect').value;
+  const branch = document.getElementById('branchSelect').value;
+
+  document.getElementById('loadingState').style.display = 'none';
+  selectedIds  = [];      // clear selection on new predict
+  visibleCount = PAGE_SIZE;
+
+  RESULTS = predict(pct, cat, branch);
+
+  updateMetrics();
+  renderList();
+  renderROI();       // ROI now reflects current branch/category results
+  setTimeout(updateTrend, 50);
+}
+
+/* ══════════════════════════════════════════════════
+   ENTER KEY → trigger predict
+══════════════════════════════════════════════════ */
+document.addEventListener('keydown', e => {
+  if (e.key === 'Enter') runPredict();
+});
+
+/* ══════════════════════════════════════════════════
+   INIT
+══════════════════════════════════════════════════ */
+loadData().then(() => runPredict());
+</script>
+</body>
+</html>

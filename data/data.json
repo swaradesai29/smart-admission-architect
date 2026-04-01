@@ -1,0 +1,5816 @@
+{
+  "meta": {
+    "version": "2.0",
+    "last_updated": "2025-06-01",
+    "description": "Dummy data for Smart Admission Architect \u2013 MHT-CET 2026 \u2013 100+ Maharashtra colleges",
+    "categories": [
+      "OPEN",
+      "OBC",
+      "SC",
+      "ST",
+      "EWS",
+      "TFWS"
+    ],
+    "cap_rounds": [
+      1,
+      2,
+      3
+    ],
+    "years": [
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "colleges": [
+    {
+      "college_id": "VJTI001",
+      "short_name": "VJTI Mumbai",
+      "location": "Mumbai",
+      "district": "Mumbai City",
+      "autonomous": true,
+      "naac_grade": "A+",
+      "nirf_rank": 42,
+      "type": "Government",
+      "established": 1887
+    },
+    {
+      "college_id": "COEP002",
+      "short_name": "COEP Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": true,
+      "naac_grade": "A+",
+      "nirf_rank": 55,
+      "type": "Government",
+      "established": 1854
+    },
+    {
+      "college_id": "SPIT003",
+      "short_name": "SPIT Mumbai",
+      "location": "Mumbai",
+      "district": "Mumbai Suburban",
+      "autonomous": false,
+      "naac_grade": "A",
+      "nirf_rank": 112,
+      "type": "Private Aided",
+      "established": 1962
+    },
+    {
+      "college_id": "DJSN004",
+      "short_name": "DJ Sanghvi Mumbai",
+      "location": "Mumbai",
+      "district": "Mumbai Suburban",
+      "autonomous": false,
+      "naac_grade": "A",
+      "nirf_rank": 134,
+      "type": "Private Unaided",
+      "established": 1994
+    },
+    {
+      "college_id": "KJSC005",
+      "short_name": "KJSCE Mumbai",
+      "location": "Mumbai",
+      "district": "Mumbai Suburban",
+      "autonomous": false,
+      "naac_grade": "A",
+      "nirf_rank": 156,
+      "type": "Private Unaided",
+      "established": 1983
+    },
+    {
+      "college_id": "ICTM006",
+      "short_name": "ICT Mumbai",
+      "location": "Mumbai",
+      "district": "Mumbai City",
+      "autonomous": true,
+      "naac_grade": "A+",
+      "nirf_rank": 68,
+      "type": "Government Deemed",
+      "established": 1933
+    },
+    {
+      "college_id": "TSEC007",
+      "short_name": "TSEC Mumbai",
+      "location": "Mumbai",
+      "district": "Mumbai Suburban",
+      "autonomous": false,
+      "naac_grade": "A",
+      "nirf_rank": 178,
+      "type": "Private Aided",
+      "established": 1983
+    },
+    {
+      "college_id": "VESI008",
+      "short_name": "VESIT Mumbai",
+      "location": "Mumbai",
+      "district": "Mumbai Suburban",
+      "autonomous": false,
+      "naac_grade": "A",
+      "nirf_rank": 201,
+      "type": "Private Unaided",
+      "established": 1999
+    },
+    {
+      "college_id": "PVPI009",
+      "short_name": "PVPIT Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 245,
+      "type": "Private Unaided",
+      "established": 2001
+    },
+    {
+      "college_id": "CUMM010",
+      "short_name": "Cummins Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": true,
+      "naac_grade": "A",
+      "nirf_rank": 189,
+      "type": "Private Aided",
+      "established": 1991
+    },
+    {
+      "college_id": "WALC011",
+      "short_name": "Walchand Sangli",
+      "location": "Sangli",
+      "district": "Sangli",
+      "autonomous": true,
+      "naac_grade": "A",
+      "nirf_rank": 167,
+      "type": "Government Aided",
+      "established": 1947
+    },
+    {
+      "college_id": "GCOE012",
+      "short_name": "GCOE Amravati",
+      "location": "Amravati",
+      "district": "Amravati",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 289,
+      "type": "Government",
+      "established": 1964
+    },
+    {
+      "college_id": "PICT013",
+      "short_name": "PICT Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": true,
+      "naac_grade": "A",
+      "nirf_rank": 145,
+      "type": "Private Unaided",
+      "established": 1983
+    },
+    {
+      "college_id": "VIIT014",
+      "short_name": "VIIT Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "A",
+      "nirf_rank": 198,
+      "type": "Private Unaided",
+      "established": 1999
+    },
+    {
+      "college_id": "SITS015",
+      "short_name": "Symbiosis Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": true,
+      "naac_grade": "A+",
+      "nirf_rank": 122,
+      "type": "Private Deemed",
+      "established": 2002
+    },
+    {
+      "college_id": "MITW016",
+      "short_name": "MIT WPU Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": true,
+      "naac_grade": "A",
+      "nirf_rank": 165,
+      "type": "Private Deemed",
+      "established": 1983
+    },
+    {
+      "college_id": "FCRI017",
+      "short_name": "FCRIT Vashi",
+      "location": "Navi Mumbai",
+      "district": "Thane",
+      "autonomous": false,
+      "naac_grade": "A",
+      "nirf_rank": 220,
+      "type": "Private Aided",
+      "established": 1994
+    },
+    {
+      "college_id": "RAIT018",
+      "short_name": "RAIT Nerul",
+      "location": "Navi Mumbai",
+      "district": "Thane",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 267,
+      "type": "Private Unaided",
+      "established": 1983
+    },
+    {
+      "college_id": "PIIT019",
+      "short_name": "PIIT Panvel",
+      "location": "Navi Mumbai",
+      "district": "Raigad",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 298,
+      "type": "Private Unaided",
+      "established": 1999
+    },
+    {
+      "college_id": "VPCOE020",
+      "short_name": "VPCOE Baramati",
+      "location": "Baramati",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 312,
+      "type": "Government Aided",
+      "established": 1983
+    },
+    {
+      "college_id": "GCOEN021",
+      "short_name": "GCOE Nagpur",
+      "location": "Nagpur",
+      "district": "Nagpur",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 275,
+      "type": "Government",
+      "established": 1960
+    },
+    {
+      "college_id": "RKNC022",
+      "short_name": "RKNEC Nagpur",
+      "location": "Nagpur",
+      "district": "Nagpur",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 310,
+      "type": "Private Aided",
+      "established": 1984
+    },
+    {
+      "college_id": "YCCE023",
+      "short_name": "YCCE Nagpur",
+      "location": "Nagpur",
+      "district": "Nagpur",
+      "autonomous": true,
+      "naac_grade": "A",
+      "nirf_rank": 234,
+      "type": "Private Unaided",
+      "established": 1984
+    },
+    {
+      "college_id": "KITS024",
+      "short_name": "KITS Nagpur",
+      "location": "Nagpur",
+      "district": "Nagpur",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 356,
+      "type": "Private Unaided",
+      "established": 2001
+    },
+    {
+      "college_id": "PCOE025",
+      "short_name": "PCOER Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 320,
+      "type": "Private Unaided",
+      "established": 2007
+    },
+    {
+      "college_id": "DYPIT026",
+      "short_name": "DY Patil Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": true,
+      "naac_grade": "A",
+      "nirf_rank": 188,
+      "type": "Private Deemed",
+      "established": 2005
+    },
+    {
+      "college_id": "SCOE027",
+      "short_name": "SCOE Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 334,
+      "type": "Private Unaided",
+      "established": 1999
+    },
+    {
+      "college_id": "JSPM028",
+      "short_name": "JSPM Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 345,
+      "type": "Private Unaided",
+      "established": 2004
+    },
+    {
+      "college_id": "AVCOE029",
+      "short_name": "AVCOE Sangamner",
+      "location": "Sangamner",
+      "district": "Ahmednagar",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 367,
+      "type": "Private Aided",
+      "established": 1983
+    },
+    {
+      "college_id": "PREC030",
+      "short_name": "PREC Loni",
+      "location": "Loni",
+      "district": "Ahmednagar",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 389,
+      "type": "Private Aided",
+      "established": 1984
+    },
+    {
+      "college_id": "SRES031",
+      "short_name": "SRES Kopargaon",
+      "location": "Kopargaon",
+      "district": "Ahmednagar",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 401,
+      "type": "Private Aided",
+      "established": 1994
+    },
+    {
+      "college_id": "BVCOE032",
+      "short_name": "BVCOE Nashik",
+      "location": "Nashik",
+      "district": "Nashik",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 356,
+      "type": "Private Unaided",
+      "established": 1983
+    },
+    {
+      "college_id": "NDMVP033",
+      "short_name": "NDMVP Nashik",
+      "location": "Nashik",
+      "district": "Nashik",
+      "autonomous": true,
+      "naac_grade": "A",
+      "nirf_rank": 278,
+      "type": "Private Aided",
+      "established": 1990
+    },
+    {
+      "college_id": "GCOEN034",
+      "short_name": "GCOE Nashik",
+      "location": "Nashik",
+      "district": "Nashik",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 310,
+      "type": "Government",
+      "established": 1960
+    },
+    {
+      "college_id": "SITS035",
+      "short_name": "SITS Nashik",
+      "location": "Nashik",
+      "district": "Nashik",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 420,
+      "type": "Private Unaided",
+      "established": 2002
+    },
+    {
+      "college_id": "MAEER036",
+      "short_name": "MAEER MIT Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 358,
+      "type": "Private Unaided",
+      "established": 1983
+    },
+    {
+      "college_id": "BSIO037",
+      "short_name": "BSIOTR Waghad",
+      "location": "Waghad",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 445,
+      "type": "Private Unaided",
+      "established": 2008
+    },
+    {
+      "college_id": "SVPM038",
+      "short_name": "SVPM Malegaon",
+      "location": "Malegaon",
+      "district": "Nashik",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 467,
+      "type": "Private Aided",
+      "established": 1991
+    },
+    {
+      "college_id": "GCOB039",
+      "short_name": "GCOE Karad",
+      "location": "Karad",
+      "district": "Satara",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 334,
+      "type": "Government",
+      "established": 1960
+    },
+    {
+      "college_id": "WIT040",
+      "short_name": "WIT Solapur",
+      "location": "Solapur",
+      "district": "Solapur",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 378,
+      "type": "Private Aided",
+      "established": 1983
+    },
+    {
+      "college_id": "DKTE041",
+      "short_name": "DKTE Ichalkaranji",
+      "location": "Ichalkaranji",
+      "district": "Kolhapur",
+      "autonomous": true,
+      "naac_grade": "A",
+      "nirf_rank": 265,
+      "type": "Private Aided",
+      "established": 1984
+    },
+    {
+      "college_id": "KIT042",
+      "short_name": "KIT Kolhapur",
+      "location": "Kolhapur",
+      "district": "Kolhapur",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 345,
+      "type": "Private Unaided",
+      "established": 1983
+    },
+    {
+      "college_id": "DYPCO043",
+      "short_name": "DY Patil Kolhapur",
+      "location": "Kolhapur",
+      "district": "Kolhapur",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 367,
+      "type": "Private Unaided",
+      "established": 2002
+    },
+    {
+      "college_id": "SGGSIE044",
+      "short_name": "SGGSIE Nanded",
+      "location": "Nanded",
+      "district": "Nanded",
+      "autonomous": true,
+      "naac_grade": "A",
+      "nirf_rank": 198,
+      "type": "Government",
+      "established": 1981
+    },
+    {
+      "college_id": "MGMCOE045",
+      "short_name": "MGM Aurangabad",
+      "location": "Aurangabad",
+      "district": "Chhatrapati Sambhajinagar",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 389,
+      "type": "Private Unaided",
+      "established": 1994
+    },
+    {
+      "college_id": "BAMU046",
+      "short_name": "BAMU Aurangabad",
+      "location": "Aurangabad",
+      "district": "Chhatrapati Sambhajinagar",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 356,
+      "type": "Government",
+      "established": 1958
+    },
+    {
+      "college_id": "MSSCOE047",
+      "short_name": "MSSCOE Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 320,
+      "type": "Private Unaided",
+      "established": 1999
+    },
+    {
+      "college_id": "GHRCE048",
+      "short_name": "GHRCE Nagpur",
+      "location": "Nagpur",
+      "district": "Nagpur",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 334,
+      "type": "Private Unaided",
+      "established": 1998
+    },
+    {
+      "college_id": "BDCOE049",
+      "short_name": "BDCOE Sewagram",
+      "location": "Sewagram",
+      "district": "Wardha",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 445,
+      "type": "Private Aided",
+      "established": 1983
+    },
+    {
+      "college_id": "GCOA050",
+      "short_name": "GCOE Amravati 2",
+      "location": "Amravati",
+      "district": "Amravati",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 312,
+      "type": "Government",
+      "established": 1994
+    },
+    {
+      "college_id": "PRMIT051",
+      "short_name": "PRMIT Badnera",
+      "location": "Badnera",
+      "district": "Amravati",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 423,
+      "type": "Private Aided",
+      "established": 1984
+    },
+    {
+      "college_id": "KDKCE052",
+      "short_name": "KDKCE Nagpur",
+      "location": "Nagpur",
+      "district": "Nagpur",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 356,
+      "type": "Private Aided",
+      "established": 1983
+    },
+    {
+      "college_id": "LGNCE053",
+      "short_name": "LGNCE Nagpur",
+      "location": "Nagpur",
+      "district": "Nagpur",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 412,
+      "type": "Private Unaided",
+      "established": 2002
+    },
+    {
+      "college_id": "JDIET054",
+      "short_name": "JDIET Yavatmal",
+      "location": "Yavatmal",
+      "district": "Yavatmal",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 456,
+      "type": "Government",
+      "established": 1984
+    },
+    {
+      "college_id": "MVSR055",
+      "short_name": "MVSR Osmanabad",
+      "location": "Osmanabad",
+      "district": "Dharashiv",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 478,
+      "type": "Private Aided",
+      "established": 1994
+    },
+    {
+      "college_id": "PHCET056",
+      "short_name": "PHCET Mumbai",
+      "location": "Mumbai",
+      "district": "Mumbai Suburban",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 298,
+      "type": "Private Unaided",
+      "established": 2006
+    },
+    {
+      "college_id": "LTCE057",
+      "short_name": "LTCE Mumbai",
+      "location": "Mumbai",
+      "district": "Mumbai Suburban",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 267,
+      "type": "Private Aided",
+      "established": 1983
+    },
+    {
+      "college_id": "AGPCE058",
+      "short_name": "Atharva Mumbai",
+      "location": "Mumbai",
+      "district": "Mumbai Suburban",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 312,
+      "type": "Private Unaided",
+      "established": 2003
+    },
+    {
+      "college_id": "FCRCE059",
+      "short_name": "Fr CRCE Mumbai",
+      "location": "Mumbai",
+      "district": "Mumbai Suburban",
+      "autonomous": true,
+      "naac_grade": "A",
+      "nirf_rank": 234,
+      "type": "Private Aided",
+      "established": 1984
+    },
+    {
+      "college_id": "SATCOE060",
+      "short_name": "St. John's Mumbai",
+      "location": "Mumbai",
+      "district": "Mumbai Suburban",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 356,
+      "type": "Private Aided",
+      "established": 1994
+    },
+    {
+      "college_id": "MPSTME061",
+      "short_name": "MPSTME Mumbai",
+      "location": "Mumbai",
+      "district": "Mumbai Suburban",
+      "autonomous": true,
+      "naac_grade": "A",
+      "nirf_rank": 189,
+      "type": "Private Deemed",
+      "established": 2006
+    },
+    {
+      "college_id": "SVKM062",
+      "short_name": "NMIMS Mumbai",
+      "location": "Mumbai",
+      "district": "Mumbai Suburban",
+      "autonomous": true,
+      "naac_grade": "A+",
+      "nirf_rank": 145,
+      "type": "Private Deemed",
+      "established": 1981
+    },
+    {
+      "college_id": "TSIT063",
+      "short_name": "TSIT Thane",
+      "location": "Thane",
+      "district": "Thane",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 334,
+      "type": "Private Unaided",
+      "established": 2001
+    },
+    {
+      "college_id": "ARMIET064",
+      "short_name": "ARMIET Thane",
+      "location": "Thane",
+      "district": "Thane",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 412,
+      "type": "Private Unaided",
+      "established": 2002
+    },
+    {
+      "college_id": "SIESGST065",
+      "short_name": "SIESCOE Nerul",
+      "location": "Navi Mumbai",
+      "district": "Thane",
+      "autonomous": true,
+      "naac_grade": "A",
+      "nirf_rank": 210,
+      "type": "Private Aided",
+      "established": 1994
+    },
+    {
+      "college_id": "PILLAI066",
+      "short_name": "Pillai Panvel",
+      "location": "Navi Mumbai",
+      "district": "Raigad",
+      "autonomous": true,
+      "naac_grade": "A",
+      "nirf_rank": 223,
+      "type": "Private Unaided",
+      "established": 1999
+    },
+    {
+      "college_id": "MESCOE067",
+      "short_name": "MES COE Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 345,
+      "type": "Private Aided",
+      "established": 1999
+    },
+    {
+      "college_id": "INDIRA068",
+      "short_name": "Indira COE Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 367,
+      "type": "Private Unaided",
+      "established": 2001
+    },
+    {
+      "college_id": "TCOER069",
+      "short_name": "TCOER Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 389,
+      "type": "Private Unaided",
+      "established": 2008
+    },
+    {
+      "college_id": "SPPU070",
+      "short_name": "SPCE Mumbai",
+      "location": "Mumbai",
+      "district": "Mumbai Suburban",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 289,
+      "type": "Private Aided",
+      "established": 1962
+    },
+    {
+      "college_id": "RIZVI071",
+      "short_name": "Rizvi Mumbai",
+      "location": "Mumbai",
+      "district": "Mumbai Suburban",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 345,
+      "type": "Private Unaided",
+      "established": 1997
+    },
+    {
+      "college_id": "XAVIER072",
+      "short_name": "Xavier Mumbai",
+      "location": "Mumbai",
+      "district": "Mumbai Suburban",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 412,
+      "type": "Private Aided",
+      "established": 1988
+    },
+    {
+      "college_id": "DPIT073",
+      "short_name": "DPIT Mumbai",
+      "location": "Mumbai",
+      "district": "Mumbai Suburban",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 323,
+      "type": "Private Unaided",
+      "established": 2003
+    },
+    {
+      "college_id": "SAKEC074",
+      "short_name": "SAKEC Mumbai",
+      "location": "Mumbai",
+      "district": "Mumbai Suburban",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 310,
+      "type": "Private Unaided",
+      "established": 1999
+    },
+    {
+      "college_id": "THADOM075",
+      "short_name": "TCET Mumbai",
+      "location": "Mumbai",
+      "district": "Mumbai Suburban",
+      "autonomous": false,
+      "naac_grade": "A",
+      "nirf_rank": 256,
+      "type": "Private Unaided",
+      "established": 1999
+    },
+    {
+      "college_id": "VIVA076",
+      "short_name": "Viva Virar",
+      "location": "Virar",
+      "district": "Palghar",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 367,
+      "type": "Private Unaided",
+      "established": 2001
+    },
+    {
+      "college_id": "DOMBIV077",
+      "short_name": "KDKCE Dombivli",
+      "location": "Dombivli",
+      "district": "Thane",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 445,
+      "type": "Private Unaided",
+      "established": 2005
+    },
+    {
+      "college_id": "BVCOE078",
+      "short_name": "BVCOE Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": true,
+      "naac_grade": "A",
+      "nirf_rank": 178,
+      "type": "Private Aided",
+      "established": 1983
+    },
+    {
+      "college_id": "SINHGAD079",
+      "short_name": "Sinhgad COE Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 312,
+      "type": "Private Unaided",
+      "established": 1994
+    },
+    {
+      "college_id": "AISSMS080",
+      "short_name": "AISSMS Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 334,
+      "type": "Private Aided",
+      "established": 2001
+    },
+    {
+      "college_id": "GCOEK081",
+      "short_name": "GCOE Karad 2",
+      "location": "Karad",
+      "district": "Satara",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 356,
+      "type": "Government",
+      "established": 1983
+    },
+    {
+      "college_id": "SITRC082",
+      "short_name": "SITRC Nashik",
+      "location": "Nashik",
+      "district": "Nashik",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 434,
+      "type": "Private Unaided",
+      "established": 2004
+    },
+    {
+      "college_id": "KBTCOE083",
+      "short_name": "KBTCOE Nashik",
+      "location": "Nashik",
+      "district": "Nashik",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 456,
+      "type": "Private Aided",
+      "established": 1983
+    },
+    {
+      "college_id": "AMGOI084",
+      "short_name": "AMGOI Vathar",
+      "location": "Vathar",
+      "district": "Satara",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 489,
+      "type": "Private Aided",
+      "established": 2009
+    },
+    {
+      "college_id": "GCOEAB085",
+      "short_name": "GCOE Chandrapur",
+      "location": "Chandrapur",
+      "district": "Chandrapur",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 345,
+      "type": "Government",
+      "established": 1984
+    },
+    {
+      "college_id": "JNEC086",
+      "short_name": "JNEC Aurangabad",
+      "location": "Aurangabad",
+      "district": "Chhatrapati Sambhajinagar",
+      "autonomous": true,
+      "naac_grade": "A",
+      "nirf_rank": 256,
+      "type": "Private Aided",
+      "established": 1994
+    },
+    {
+      "college_id": "MGSM087",
+      "short_name": "MGM Nanded",
+      "location": "Nanded",
+      "district": "Nanded",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 378,
+      "type": "Private Unaided",
+      "established": 2001
+    },
+    {
+      "college_id": "DEOGIRI088",
+      "short_name": "Deogiri Aurangabad",
+      "location": "Aurangabad",
+      "district": "Chhatrapati Sambhajinagar",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 389,
+      "type": "Private Aided",
+      "established": 1983
+    },
+    {
+      "college_id": "GHRCOE089",
+      "short_name": "GHR COE Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 312,
+      "type": "Private Unaided",
+      "established": 2005
+    },
+    {
+      "college_id": "COEMPU090",
+      "short_name": "COEM Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 423,
+      "type": "Private Unaided",
+      "established": 2007
+    },
+    {
+      "college_id": "PCCOER091",
+      "short_name": "PCCOER Ravet",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 356,
+      "type": "Private Unaided",
+      "established": 2009
+    },
+    {
+      "college_id": "NBNSOE092",
+      "short_name": "NBN COE Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 445,
+      "type": "Private Unaided",
+      "established": 2002
+    },
+    {
+      "college_id": "SPCOE093",
+      "short_name": "SPCOE Dumbarwadi",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 467,
+      "type": "Private Unaided",
+      "established": 2008
+    },
+    {
+      "college_id": "MACOEM094",
+      "short_name": "MKSSS Cummins",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 289,
+      "type": "Private Aided",
+      "established": 1991
+    },
+    {
+      "college_id": "MITWPU095",
+      "short_name": "MIT ADT Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": true,
+      "naac_grade": "A",
+      "nirf_rank": 234,
+      "type": "Private Deemed",
+      "established": 2017
+    },
+    {
+      "college_id": "ZEAL096",
+      "short_name": "Zeal COE Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 489,
+      "type": "Private Unaided",
+      "established": 2009
+    },
+    {
+      "college_id": "PVGCOE097",
+      "short_name": "PVG COE Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 334,
+      "type": "Private Aided",
+      "established": 1999
+    },
+    {
+      "college_id": "AISSMSP098",
+      "short_name": "AISSMS COE Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 345,
+      "type": "Private Aided",
+      "established": 2001
+    },
+    {
+      "college_id": "GHRIET099",
+      "short_name": "GHRIET Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 367,
+      "type": "Private Unaided",
+      "established": 2009
+    },
+    {
+      "college_id": "RMDSSOE100",
+      "short_name": "RMDSSOE Pune",
+      "location": "Pune",
+      "district": "Pune",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 412,
+      "type": "Private Unaided",
+      "established": 2010
+    },
+    {
+      "college_id": "SRCOEM101",
+      "short_name": "SRCOEM Nagpur",
+      "location": "Nagpur",
+      "district": "Nagpur",
+      "autonomous": false,
+      "naac_grade": "B+",
+      "nirf_rank": 345,
+      "type": "Private Unaided",
+      "established": 2005
+    },
+    {
+      "college_id": "JDCOEM102",
+      "short_name": "JD COE Nagpur",
+      "location": "Nagpur",
+      "district": "Nagpur",
+      "autonomous": false,
+      "naac_grade": "B",
+      "nirf_rank": 423,
+      "type": "Private Unaided",
+      "established": 2008
+    }
+  ],
+  "branches": [
+    {
+      "branch_id": "CS",
+      "branch_name": "Computer Engineering",
+      "branch_code": "CS"
+    },
+    {
+      "branch_id": "IT",
+      "branch_name": "Information Technology",
+      "branch_code": "IT"
+    },
+    {
+      "branch_id": "EL",
+      "branch_name": "Electronics Engineering",
+      "branch_code": "EL"
+    },
+    {
+      "branch_id": "ME",
+      "branch_name": "Mechanical Engineering",
+      "branch_code": "ME"
+    },
+    {
+      "branch_id": "CE",
+      "branch_name": "Civil Engineering",
+      "branch_code": "CE"
+    }
+  ],
+  "cutoffs": [
+    {
+      "college_id": "VJTI001",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 98.5,
+      "cutoff_2024": 98.8,
+      "cutoff_2025": 99.12
+    },
+    {
+      "college_id": "VJTI001",
+      "branch_code": "CS",
+      "category": "OBC",
+      "cutoff_2023": 97.1,
+      "cutoff_2024": 97.4,
+      "cutoff_2025": 97.75
+    },
+    {
+      "college_id": "VJTI001",
+      "branch_code": "CS",
+      "category": "SC",
+      "cutoff_2023": 89.2,
+      "cutoff_2024": 90.1,
+      "cutoff_2025": 91.0
+    },
+    {
+      "college_id": "VJTI001",
+      "branch_code": "CS",
+      "category": "ST",
+      "cutoff_2023": 82.5,
+      "cutoff_2024": 83.2,
+      "cutoff_2025": 84.0
+    },
+    {
+      "college_id": "VJTI001",
+      "branch_code": "CS",
+      "category": "EWS",
+      "cutoff_2023": 97.8,
+      "cutoff_2024": 98.1,
+      "cutoff_2025": 98.5
+    },
+    {
+      "college_id": "VJTI001",
+      "branch_code": "IT",
+      "category": "OPEN",
+      "cutoff_2023": 97.8,
+      "cutoff_2024": 98.2,
+      "cutoff_2025": 98.55
+    },
+    {
+      "college_id": "VJTI001",
+      "branch_code": "IT",
+      "category": "OBC",
+      "cutoff_2023": 96.4,
+      "cutoff_2024": 96.8,
+      "cutoff_2025": 97.1
+    },
+    {
+      "college_id": "COEP002",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 97.9,
+      "cutoff_2024": 98.1,
+      "cutoff_2025": 98.4
+    },
+    {
+      "college_id": "COEP002",
+      "branch_code": "CS",
+      "category": "OBC",
+      "cutoff_2023": 96.2,
+      "cutoff_2024": 96.6,
+      "cutoff_2025": 97.0
+    },
+    {
+      "college_id": "COEP002",
+      "branch_code": "CS",
+      "category": "SC",
+      "cutoff_2023": 87.5,
+      "cutoff_2024": 88.4,
+      "cutoff_2025": 89.3
+    },
+    {
+      "college_id": "COEP002",
+      "branch_code": "CS",
+      "category": "EWS",
+      "cutoff_2023": 97.2,
+      "cutoff_2024": 97.6,
+      "cutoff_2025": 98.0
+    },
+    {
+      "college_id": "COEP002",
+      "branch_code": "IT",
+      "category": "OPEN",
+      "cutoff_2023": 97.2,
+      "cutoff_2024": 97.5,
+      "cutoff_2025": 97.8
+    },
+    {
+      "college_id": "SPIT003",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 95.8,
+      "cutoff_2024": 96.0,
+      "cutoff_2025": 96.2
+    },
+    {
+      "college_id": "SPIT003",
+      "branch_code": "CS",
+      "category": "OBC",
+      "cutoff_2023": 93.1,
+      "cutoff_2024": 93.6,
+      "cutoff_2025": 94.1
+    },
+    {
+      "college_id": "SPIT003",
+      "branch_code": "CS",
+      "category": "SC",
+      "cutoff_2023": 80.2,
+      "cutoff_2024": 81.5,
+      "cutoff_2025": 82.8
+    },
+    {
+      "college_id": "SPIT003",
+      "branch_code": "IT",
+      "category": "OPEN",
+      "cutoff_2023": 94.5,
+      "cutoff_2024": 94.8,
+      "cutoff_2025": 95.1
+    },
+    {
+      "college_id": "DJSN004",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 95.2,
+      "cutoff_2024": 95.6,
+      "cutoff_2025": 95.9
+    },
+    {
+      "college_id": "DJSN004",
+      "branch_code": "IT",
+      "category": "OPEN",
+      "cutoff_2023": 95.0,
+      "cutoff_2024": 95.4,
+      "cutoff_2025": 95.8
+    },
+    {
+      "college_id": "DJSN004",
+      "branch_code": "IT",
+      "category": "OBC",
+      "cutoff_2023": 92.3,
+      "cutoff_2024": 92.8,
+      "cutoff_2025": 93.3
+    },
+    {
+      "college_id": "DJSN004",
+      "branch_code": "IT",
+      "category": "SC",
+      "cutoff_2023": 78.4,
+      "cutoff_2024": 79.6,
+      "cutoff_2025": 80.8
+    },
+    {
+      "college_id": "KJSC005",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 94.2,
+      "cutoff_2024": 94.6,
+      "cutoff_2025": 94.9
+    },
+    {
+      "college_id": "KJSC005",
+      "branch_code": "CS",
+      "category": "OBC",
+      "cutoff_2023": 91.0,
+      "cutoff_2024": 91.5,
+      "cutoff_2025": 92.0
+    },
+    {
+      "college_id": "KJSC005",
+      "branch_code": "CS",
+      "category": "SC",
+      "cutoff_2023": 76.1,
+      "cutoff_2024": 77.3,
+      "cutoff_2025": 78.5
+    },
+    {
+      "college_id": "ICTM006",
+      "branch_code": "IT",
+      "category": "OPEN",
+      "cutoff_2023": 92.8,
+      "cutoff_2024": 93.1,
+      "cutoff_2025": 93.5
+    },
+    {
+      "college_id": "ICTM006",
+      "branch_code": "IT",
+      "category": "OBC",
+      "cutoff_2023": 89.5,
+      "cutoff_2024": 90.0,
+      "cutoff_2025": 90.5
+    },
+    {
+      "college_id": "ICTM006",
+      "branch_code": "IT",
+      "category": "SC",
+      "cutoff_2023": 73.2,
+      "cutoff_2024": 74.8,
+      "cutoff_2025": 76.2
+    },
+    {
+      "college_id": "TSEC007",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 92.5,
+      "cutoff_2024": 92.8,
+      "cutoff_2025": 93.1
+    },
+    {
+      "college_id": "TSEC007",
+      "branch_code": "CS",
+      "category": "OBC",
+      "cutoff_2023": 88.8,
+      "cutoff_2024": 89.3,
+      "cutoff_2025": 89.8
+    },
+    {
+      "college_id": "TSEC007",
+      "branch_code": "IT",
+      "category": "OPEN",
+      "cutoff_2023": 91.8,
+      "cutoff_2024": 92.1,
+      "cutoff_2025": 92.4
+    },
+    {
+      "college_id": "VESI008",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 91.9,
+      "cutoff_2024": 92.2,
+      "cutoff_2025": 92.5
+    },
+    {
+      "college_id": "VESI008",
+      "branch_code": "IT",
+      "category": "OPEN",
+      "cutoff_2023": 91.9,
+      "cutoff_2024": 92.1,
+      "cutoff_2025": 92.4
+    },
+    {
+      "college_id": "VESI008",
+      "branch_code": "IT",
+      "category": "OBC",
+      "cutoff_2023": 88.0,
+      "cutoff_2024": 88.4,
+      "cutoff_2025": 88.8
+    },
+    {
+      "college_id": "PVPI009",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 91.0,
+      "cutoff_2024": 91.4,
+      "cutoff_2025": 91.8
+    },
+    {
+      "college_id": "PVPI009",
+      "branch_code": "CS",
+      "category": "OBC",
+      "cutoff_2023": 86.5,
+      "cutoff_2024": 87.1,
+      "cutoff_2025": 87.7
+    },
+    {
+      "college_id": "CUMM010",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 90.5,
+      "cutoff_2024": 90.9,
+      "cutoff_2025": 91.2
+    },
+    {
+      "college_id": "CUMM010",
+      "branch_code": "CS",
+      "category": "OBC",
+      "cutoff_2023": 85.8,
+      "cutoff_2024": 86.4,
+      "cutoff_2025": 87.0
+    },
+    {
+      "college_id": "WALC011",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 89.8,
+      "cutoff_2024": 90.1,
+      "cutoff_2025": 90.5
+    },
+    {
+      "college_id": "WALC011",
+      "branch_code": "CS",
+      "category": "OBC",
+      "cutoff_2023": 84.5,
+      "cutoff_2024": 85.1,
+      "cutoff_2025": 85.7
+    },
+    {
+      "college_id": "GCOE012",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 87.2,
+      "cutoff_2024": 87.6,
+      "cutoff_2025": 88.0
+    },
+    {
+      "college_id": "GCOE012",
+      "branch_code": "CS",
+      "category": "OBC",
+      "cutoff_2023": 81.0,
+      "cutoff_2024": 81.8,
+      "cutoff_2025": 82.6
+    },
+    {
+      "college_id": "GCOE012",
+      "branch_code": "IT",
+      "category": "OPEN",
+      "cutoff_2023": 86.5,
+      "cutoff_2024": 87.0,
+      "cutoff_2025": 87.4
+    },
+    {
+      "college_id": "PICT013",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 93.8,
+      "cutoff_2024": 94.1,
+      "cutoff_2025": 94.4
+    },
+    {
+      "college_id": "PICT013",
+      "branch_code": "IT",
+      "category": "OPEN",
+      "cutoff_2023": 92.5,
+      "cutoff_2024": 92.8,
+      "cutoff_2025": 93.1
+    },
+    {
+      "college_id": "VIIT014",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 91.5,
+      "cutoff_2024": 91.8,
+      "cutoff_2025": 92.1
+    },
+    {
+      "college_id": "SITS015",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 93.2,
+      "cutoff_2024": 93.6,
+      "cutoff_2025": 94.0
+    },
+    {
+      "college_id": "MITW016",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 91.0,
+      "cutoff_2024": 91.4,
+      "cutoff_2025": 91.8
+    },
+    {
+      "college_id": "FCRI017",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 90.2,
+      "cutoff_2024": 90.6,
+      "cutoff_2025": 91.0
+    },
+    {
+      "college_id": "FCRI017",
+      "branch_code": "IT",
+      "category": "OPEN",
+      "cutoff_2023": 89.5,
+      "cutoff_2024": 89.8,
+      "cutoff_2025": 90.2
+    },
+    {
+      "college_id": "RAIT018",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 88.5,
+      "cutoff_2024": 88.9,
+      "cutoff_2025": 89.3
+    },
+    {
+      "college_id": "PIIT019",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 85.0,
+      "cutoff_2024": 85.5,
+      "cutoff_2025": 86.0
+    },
+    {
+      "college_id": "VPCOE020",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 84.0,
+      "cutoff_2024": 84.5,
+      "cutoff_2025": 85.0
+    },
+    {
+      "college_id": "GCOEN021",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 86.0,
+      "cutoff_2024": 86.4,
+      "cutoff_2025": 86.8
+    },
+    {
+      "college_id": "GCOEN021",
+      "branch_code": "CS",
+      "category": "OBC",
+      "cutoff_2023": 80.0,
+      "cutoff_2024": 80.6,
+      "cutoff_2025": 81.2
+    },
+    {
+      "college_id": "RKNC022",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 83.5,
+      "cutoff_2024": 84.0,
+      "cutoff_2025": 84.5
+    },
+    {
+      "college_id": "YCCE023",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 87.5,
+      "cutoff_2024": 87.9,
+      "cutoff_2025": 88.3
+    },
+    {
+      "college_id": "YCCE023",
+      "branch_code": "IT",
+      "category": "OPEN",
+      "cutoff_2023": 86.0,
+      "cutoff_2024": 86.5,
+      "cutoff_2025": 87.0
+    },
+    {
+      "college_id": "KITS024",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 79.0,
+      "cutoff_2024": 79.6,
+      "cutoff_2025": 80.2
+    },
+    {
+      "college_id": "PCOE025",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 82.0,
+      "cutoff_2024": 82.5,
+      "cutoff_2025": 83.0
+    },
+    {
+      "college_id": "DYPIT026",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 90.0,
+      "cutoff_2024": 90.4,
+      "cutoff_2025": 90.8
+    },
+    {
+      "college_id": "DYPIT026",
+      "branch_code": "IT",
+      "category": "OPEN",
+      "cutoff_2023": 88.5,
+      "cutoff_2024": 88.9,
+      "cutoff_2025": 89.3
+    },
+    {
+      "college_id": "SCOE027",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 83.0,
+      "cutoff_2024": 83.5,
+      "cutoff_2025": 84.0
+    },
+    {
+      "college_id": "JSPM028",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 81.0,
+      "cutoff_2024": 81.6,
+      "cutoff_2025": 82.2
+    },
+    {
+      "college_id": "AVCOE029",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 80.5,
+      "cutoff_2024": 81.0,
+      "cutoff_2025": 81.5
+    },
+    {
+      "college_id": "PREC030",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 77.0,
+      "cutoff_2024": 77.6,
+      "cutoff_2025": 78.2
+    },
+    {
+      "college_id": "SRES031",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 74.0,
+      "cutoff_2024": 74.6,
+      "cutoff_2025": 75.2
+    },
+    {
+      "college_id": "BVCOE032",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 82.0,
+      "cutoff_2024": 82.6,
+      "cutoff_2025": 83.2
+    },
+    {
+      "college_id": "NDMVP033",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 88.0,
+      "cutoff_2024": 88.4,
+      "cutoff_2025": 88.8
+    },
+    {
+      "college_id": "NDMVP033",
+      "branch_code": "IT",
+      "category": "OPEN",
+      "cutoff_2023": 86.5,
+      "cutoff_2024": 87.0,
+      "cutoff_2025": 87.5
+    },
+    {
+      "college_id": "GCOEN034",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 85.0,
+      "cutoff_2024": 85.5,
+      "cutoff_2025": 86.0
+    },
+    {
+      "college_id": "SITS035",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 76.0,
+      "cutoff_2024": 76.6,
+      "cutoff_2025": 77.2
+    },
+    {
+      "college_id": "MAEER036",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 83.5,
+      "cutoff_2024": 84.0,
+      "cutoff_2025": 84.5
+    },
+    {
+      "college_id": "BSIO037",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 72.0,
+      "cutoff_2024": 72.6,
+      "cutoff_2025": 73.2
+    },
+    {
+      "college_id": "SVPM038",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 68.0,
+      "cutoff_2024": 68.6,
+      "cutoff_2025": 69.2
+    },
+    {
+      "college_id": "GCOB039",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 84.0,
+      "cutoff_2024": 84.5,
+      "cutoff_2025": 85.0
+    },
+    {
+      "college_id": "WIT040",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 81.5,
+      "cutoff_2024": 82.0,
+      "cutoff_2025": 82.5
+    },
+    {
+      "college_id": "DKTE041",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 87.0,
+      "cutoff_2024": 87.5,
+      "cutoff_2025": 88.0
+    },
+    {
+      "college_id": "KIT042",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 82.5,
+      "cutoff_2024": 83.0,
+      "cutoff_2025": 83.5
+    },
+    {
+      "college_id": "DYPCO043",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 80.0,
+      "cutoff_2024": 80.6,
+      "cutoff_2025": 81.2
+    },
+    {
+      "college_id": "SGGSIE044",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 91.5,
+      "cutoff_2024": 91.8,
+      "cutoff_2025": 92.1
+    },
+    {
+      "college_id": "SGGSIE044",
+      "branch_code": "CS",
+      "category": "OBC",
+      "cutoff_2023": 86.0,
+      "cutoff_2024": 86.6,
+      "cutoff_2025": 87.1
+    },
+    {
+      "college_id": "MGMCOE045",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 79.0,
+      "cutoff_2024": 79.6,
+      "cutoff_2025": 80.2
+    },
+    {
+      "college_id": "BAMU046",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 82.0,
+      "cutoff_2024": 82.5,
+      "cutoff_2025": 83.0
+    },
+    {
+      "college_id": "MSSCOE047",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 83.0,
+      "cutoff_2024": 83.6,
+      "cutoff_2025": 84.2
+    },
+    {
+      "college_id": "GHRCE048",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 81.0,
+      "cutoff_2024": 81.6,
+      "cutoff_2025": 82.2
+    },
+    {
+      "college_id": "BDCOE049",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 71.0,
+      "cutoff_2024": 71.6,
+      "cutoff_2025": 72.2
+    },
+    {
+      "college_id": "GCOA050",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 83.5,
+      "cutoff_2024": 84.0,
+      "cutoff_2025": 84.5
+    },
+    {
+      "college_id": "PRMIT051",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 72.0,
+      "cutoff_2024": 72.6,
+      "cutoff_2025": 73.2
+    },
+    {
+      "college_id": "KDKCE052",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 80.0,
+      "cutoff_2024": 80.5,
+      "cutoff_2025": 81.0
+    },
+    {
+      "college_id": "LGNCE053",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 74.0,
+      "cutoff_2024": 74.6,
+      "cutoff_2025": 75.2
+    },
+    {
+      "college_id": "JDIET054",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 69.0,
+      "cutoff_2024": 69.6,
+      "cutoff_2025": 70.2
+    },
+    {
+      "college_id": "MVSR055",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 65.0,
+      "cutoff_2024": 65.6,
+      "cutoff_2025": 66.2
+    },
+    {
+      "college_id": "PHCET056",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 87.0,
+      "cutoff_2024": 87.4,
+      "cutoff_2025": 87.8
+    },
+    {
+      "college_id": "LTCE057",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 89.0,
+      "cutoff_2024": 89.4,
+      "cutoff_2025": 89.8
+    },
+    {
+      "college_id": "LTCE057",
+      "branch_code": "IT",
+      "category": "OPEN",
+      "cutoff_2023": 87.5,
+      "cutoff_2024": 87.9,
+      "cutoff_2025": 88.3
+    },
+    {
+      "college_id": "AGPCE058",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 86.0,
+      "cutoff_2024": 86.5,
+      "cutoff_2025": 87.0
+    },
+    {
+      "college_id": "FCRCE059",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 91.0,
+      "cutoff_2024": 91.4,
+      "cutoff_2025": 91.8
+    },
+    {
+      "college_id": "SATCOE060",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 84.5,
+      "cutoff_2024": 85.0,
+      "cutoff_2025": 85.5
+    },
+    {
+      "college_id": "MPSTME061",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 92.0,
+      "cutoff_2024": 92.4,
+      "cutoff_2025": 92.8
+    },
+    {
+      "college_id": "SVKM062",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 93.5,
+      "cutoff_2024": 93.9,
+      "cutoff_2025": 94.3
+    },
+    {
+      "college_id": "TSIT063",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 83.0,
+      "cutoff_2024": 83.5,
+      "cutoff_2025": 84.0
+    },
+    {
+      "college_id": "ARMIET064",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 76.0,
+      "cutoff_2024": 76.6,
+      "cutoff_2025": 77.2
+    },
+    {
+      "college_id": "SIESGST065",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 90.5,
+      "cutoff_2024": 90.9,
+      "cutoff_2025": 91.3
+    },
+    {
+      "college_id": "PILLAI066",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 89.5,
+      "cutoff_2024": 89.9,
+      "cutoff_2025": 90.3
+    },
+    {
+      "college_id": "PILLAI066",
+      "branch_code": "IT",
+      "category": "OPEN",
+      "cutoff_2023": 88.0,
+      "cutoff_2024": 88.4,
+      "cutoff_2025": 88.8
+    },
+    {
+      "college_id": "MESCOE067",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 82.5,
+      "cutoff_2024": 83.0,
+      "cutoff_2025": 83.5
+    },
+    {
+      "college_id": "INDIRA068",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 81.0,
+      "cutoff_2024": 81.6,
+      "cutoff_2025": 82.2
+    },
+    {
+      "college_id": "TCOER069",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 79.5,
+      "cutoff_2024": 80.0,
+      "cutoff_2025": 80.5
+    },
+    {
+      "college_id": "SPPU070",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 87.5,
+      "cutoff_2024": 87.9,
+      "cutoff_2025": 88.3
+    },
+    {
+      "college_id": "RIZVI071",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 83.5,
+      "cutoff_2024": 84.0,
+      "cutoff_2025": 84.5
+    },
+    {
+      "college_id": "XAVIER072",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 78.0,
+      "cutoff_2024": 78.6,
+      "cutoff_2025": 79.2
+    },
+    {
+      "college_id": "DPIT073",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 86.0,
+      "cutoff_2024": 86.5,
+      "cutoff_2025": 87.0
+    },
+    {
+      "college_id": "SAKEC074",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 87.5,
+      "cutoff_2024": 87.9,
+      "cutoff_2025": 88.3
+    },
+    {
+      "college_id": "THADOM075",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 89.0,
+      "cutoff_2024": 89.5,
+      "cutoff_2025": 90.0
+    },
+    {
+      "college_id": "VIVA076",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 78.0,
+      "cutoff_2024": 78.6,
+      "cutoff_2025": 79.2
+    },
+    {
+      "college_id": "DOMBIV077",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 73.0,
+      "cutoff_2024": 73.6,
+      "cutoff_2025": 74.2
+    },
+    {
+      "college_id": "BVCOE078",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 91.0,
+      "cutoff_2024": 91.4,
+      "cutoff_2025": 91.8
+    },
+    {
+      "college_id": "BVCOE078",
+      "branch_code": "IT",
+      "category": "OPEN",
+      "cutoff_2023": 89.5,
+      "cutoff_2024": 89.9,
+      "cutoff_2025": 90.3
+    },
+    {
+      "college_id": "SINHGAD079",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 84.0,
+      "cutoff_2024": 84.5,
+      "cutoff_2025": 85.0
+    },
+    {
+      "college_id": "AISSMS080",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 83.0,
+      "cutoff_2024": 83.5,
+      "cutoff_2025": 84.0
+    },
+    {
+      "college_id": "GCOEK081",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 83.5,
+      "cutoff_2024": 84.0,
+      "cutoff_2025": 84.5
+    },
+    {
+      "college_id": "SITRC082",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 75.0,
+      "cutoff_2024": 75.6,
+      "cutoff_2025": 76.2
+    },
+    {
+      "college_id": "KBTCOE083",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 72.5,
+      "cutoff_2024": 73.1,
+      "cutoff_2025": 73.7
+    },
+    {
+      "college_id": "AMGOI084",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 67.0,
+      "cutoff_2024": 67.6,
+      "cutoff_2025": 68.2
+    },
+    {
+      "college_id": "GCOEAB085",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 81.0,
+      "cutoff_2024": 81.6,
+      "cutoff_2025": 82.2
+    },
+    {
+      "college_id": "JNEC086",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 88.5,
+      "cutoff_2024": 88.9,
+      "cutoff_2025": 89.3
+    },
+    {
+      "college_id": "MGSM087",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 78.0,
+      "cutoff_2024": 78.6,
+      "cutoff_2025": 79.2
+    },
+    {
+      "college_id": "DEOGIRI088",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 80.0,
+      "cutoff_2024": 80.6,
+      "cutoff_2025": 81.2
+    },
+    {
+      "college_id": "GHRCOE089",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 83.0,
+      "cutoff_2024": 83.6,
+      "cutoff_2025": 84.2
+    },
+    {
+      "college_id": "COEMPU090",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 75.0,
+      "cutoff_2024": 75.6,
+      "cutoff_2025": 76.2
+    },
+    {
+      "college_id": "PCCOER091",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 81.5,
+      "cutoff_2024": 82.0,
+      "cutoff_2025": 82.5
+    },
+    {
+      "college_id": "NBNSOE092",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 73.0,
+      "cutoff_2024": 73.6,
+      "cutoff_2025": 74.2
+    },
+    {
+      "college_id": "SPCOE093",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 70.0,
+      "cutoff_2024": 70.6,
+      "cutoff_2025": 71.2
+    },
+    {
+      "college_id": "MACOEM094",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 85.5,
+      "cutoff_2024": 86.0,
+      "cutoff_2025": 86.5
+    },
+    {
+      "college_id": "MITWPU095",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 89.0,
+      "cutoff_2024": 89.5,
+      "cutoff_2025": 90.0
+    },
+    {
+      "college_id": "ZEAL096",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 68.0,
+      "cutoff_2024": 68.6,
+      "cutoff_2025": 69.2
+    },
+    {
+      "college_id": "PVGCOE097",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 83.0,
+      "cutoff_2024": 83.5,
+      "cutoff_2025": 84.0
+    },
+    {
+      "college_id": "AISSMSP098",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 82.5,
+      "cutoff_2024": 83.0,
+      "cutoff_2025": 83.5
+    },
+    {
+      "college_id": "GHRIET099",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 80.0,
+      "cutoff_2024": 80.6,
+      "cutoff_2025": 81.2
+    },
+    {
+      "college_id": "RMDSSOE100",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 76.0,
+      "cutoff_2024": 76.6,
+      "cutoff_2025": 77.2
+    },
+    {
+      "college_id": "SRCOEM101",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 79.0,
+      "cutoff_2024": 79.6,
+      "cutoff_2025": 80.2
+    },
+    {
+      "college_id": "JDCOEM102",
+      "branch_code": "CS",
+      "category": "OPEN",
+      "cutoff_2023": 72.0,
+      "cutoff_2024": 72.6,
+      "cutoff_2025": 73.2
+    },
+    {
+      "college_id": "VJTI001",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 96.2,
+      "cutoff_2024": 96.5,
+      "cutoff_2025": 96.8
+    },
+    {
+      "college_id": "VJTI001",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 91.2,
+      "cutoff_2024": 91.5,
+      "cutoff_2025": 91.8
+    },
+    {
+      "college_id": "COEP002",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 95.5,
+      "cutoff_2024": 95.8,
+      "cutoff_2025": 96.1
+    },
+    {
+      "college_id": "COEP002",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 90.5,
+      "cutoff_2024": 90.8,
+      "cutoff_2025": 91.1
+    },
+    {
+      "college_id": "WALC011",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 88.0,
+      "cutoff_2024": 88.4,
+      "cutoff_2025": 88.8
+    },
+    {
+      "college_id": "WALC011",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 83.0,
+      "cutoff_2024": 83.4,
+      "cutoff_2025": 83.8
+    },
+    {
+      "college_id": "SGGSIE044",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 89.0,
+      "cutoff_2024": 89.4,
+      "cutoff_2025": 89.8
+    },
+    {
+      "college_id": "SGGSIE044",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 84.0,
+      "cutoff_2024": 84.4,
+      "cutoff_2025": 84.8
+    },
+    {
+      "college_id": "GCOE012",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 82.0,
+      "cutoff_2024": 82.4,
+      "cutoff_2025": 82.8
+    },
+    {
+      "college_id": "GCOE012",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 77.0,
+      "cutoff_2024": 77.4,
+      "cutoff_2025": 77.8
+    },
+    {
+      "college_id": "GCOEN021",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 81.0,
+      "cutoff_2024": 81.4,
+      "cutoff_2025": 81.8
+    },
+    {
+      "college_id": "GCOEN021",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 76.0,
+      "cutoff_2024": 76.4,
+      "cutoff_2025": 76.8
+    },
+    {
+      "college_id": "GCOB039",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 80.0,
+      "cutoff_2024": 80.4,
+      "cutoff_2025": 80.8
+    },
+    {
+      "college_id": "GCOB039",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 75.0,
+      "cutoff_2024": 75.4,
+      "cutoff_2025": 75.8
+    },
+    {
+      "college_id": "DKTE041",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 84.0,
+      "cutoff_2024": 84.4,
+      "cutoff_2025": 84.8
+    },
+    {
+      "college_id": "DKTE041",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 79.0,
+      "cutoff_2024": 79.4,
+      "cutoff_2025": 79.8
+    },
+    {
+      "college_id": "PICT013",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 90.0,
+      "cutoff_2024": 90.3,
+      "cutoff_2025": 90.6
+    },
+    {
+      "college_id": "PICT013",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 85.0,
+      "cutoff_2024": 85.3,
+      "cutoff_2025": 85.6
+    },
+    {
+      "college_id": "VIIT014",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 87.0,
+      "cutoff_2024": 87.3,
+      "cutoff_2025": 87.6
+    },
+    {
+      "college_id": "VIIT014",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 82.0,
+      "cutoff_2024": 82.3,
+      "cutoff_2025": 82.6
+    },
+    {
+      "college_id": "SITS015",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 89.5,
+      "cutoff_2024": 89.8,
+      "cutoff_2025": 90.1
+    },
+    {
+      "college_id": "SITS015",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 84.5,
+      "cutoff_2024": 84.8,
+      "cutoff_2025": 85.1
+    },
+    {
+      "college_id": "MITW016",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 87.5,
+      "cutoff_2024": 87.8,
+      "cutoff_2025": 88.1
+    },
+    {
+      "college_id": "MITW016",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 82.5,
+      "cutoff_2024": 82.8,
+      "cutoff_2025": 83.1
+    },
+    {
+      "college_id": "FCRI017",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 85.0,
+      "cutoff_2024": 85.3,
+      "cutoff_2025": 85.6
+    },
+    {
+      "college_id": "FCRI017",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 80.0,
+      "cutoff_2024": 80.3,
+      "cutoff_2025": 80.6
+    },
+    {
+      "college_id": "RAIT018",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 83.0,
+      "cutoff_2024": 83.3,
+      "cutoff_2025": 83.6
+    },
+    {
+      "college_id": "RAIT018",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 78.0,
+      "cutoff_2024": 78.3,
+      "cutoff_2025": 78.6
+    },
+    {
+      "college_id": "PIIT019",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 79.0,
+      "cutoff_2024": 79.3,
+      "cutoff_2025": 79.6
+    },
+    {
+      "college_id": "PIIT019",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 74.0,
+      "cutoff_2024": 74.3,
+      "cutoff_2025": 74.6
+    },
+    {
+      "college_id": "GCOEN034",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 80.5,
+      "cutoff_2024": 80.8,
+      "cutoff_2025": 81.1
+    },
+    {
+      "college_id": "GCOEN034",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 75.5,
+      "cutoff_2024": 75.8,
+      "cutoff_2025": 76.1
+    },
+    {
+      "college_id": "NDMVP033",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 83.5,
+      "cutoff_2024": 83.8,
+      "cutoff_2025": 84.1
+    },
+    {
+      "college_id": "NDMVP033",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 78.5,
+      "cutoff_2024": 78.8,
+      "cutoff_2025": 79.1
+    },
+    {
+      "college_id": "BVCOE032",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 78.0,
+      "cutoff_2024": 78.3,
+      "cutoff_2025": 78.6
+    },
+    {
+      "college_id": "BVCOE032",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 73.0,
+      "cutoff_2024": 73.3,
+      "cutoff_2025": 73.6
+    },
+    {
+      "college_id": "YCCE023",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 82.0,
+      "cutoff_2024": 82.3,
+      "cutoff_2025": 82.6
+    },
+    {
+      "college_id": "YCCE023",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 77.0,
+      "cutoff_2024": 77.3,
+      "cutoff_2025": 77.6
+    },
+    {
+      "college_id": "JNEC086",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 83.0,
+      "cutoff_2024": 83.3,
+      "cutoff_2025": 83.6
+    },
+    {
+      "college_id": "JNEC086",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 78.0,
+      "cutoff_2024": 78.3,
+      "cutoff_2025": 78.6
+    },
+    {
+      "college_id": "BAMU046",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 77.0,
+      "cutoff_2024": 77.3,
+      "cutoff_2025": 77.6
+    },
+    {
+      "college_id": "BAMU046",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 72.0,
+      "cutoff_2024": 72.3,
+      "cutoff_2025": 72.6
+    },
+    {
+      "college_id": "KIT042",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 78.5,
+      "cutoff_2024": 78.8,
+      "cutoff_2025": 79.1
+    },
+    {
+      "college_id": "KIT042",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 73.5,
+      "cutoff_2024": 73.8,
+      "cutoff_2025": 74.1
+    },
+    {
+      "college_id": "WIT040",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 76.5,
+      "cutoff_2024": 76.8,
+      "cutoff_2025": 77.1
+    },
+    {
+      "college_id": "WIT040",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 71.5,
+      "cutoff_2024": 71.8,
+      "cutoff_2025": 72.1
+    },
+    {
+      "college_id": "PVPI009",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 85.0,
+      "cutoff_2024": 85.3,
+      "cutoff_2025": 85.6
+    },
+    {
+      "college_id": "PVPI009",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 80.0,
+      "cutoff_2024": 80.3,
+      "cutoff_2025": 80.6
+    },
+    {
+      "college_id": "CUMM010",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 86.0,
+      "cutoff_2024": 86.3,
+      "cutoff_2025": 86.6
+    },
+    {
+      "college_id": "CUMM010",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 81.0,
+      "cutoff_2024": 81.3,
+      "cutoff_2025": 81.6
+    },
+    {
+      "college_id": "SINHGAD079",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 79.0,
+      "cutoff_2024": 79.3,
+      "cutoff_2025": 79.6
+    },
+    {
+      "college_id": "SINHGAD079",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 74.0,
+      "cutoff_2024": 74.3,
+      "cutoff_2025": 74.6
+    },
+    {
+      "college_id": "AISSMS080",
+      "branch_code": "ME",
+      "category": "OPEN",
+      "cutoff_2023": 78.5,
+      "cutoff_2024": 78.8,
+      "cutoff_2025": 79.1
+    },
+    {
+      "college_id": "AISSMS080",
+      "branch_code": "ME",
+      "category": "OBC",
+      "cutoff_2023": 73.5,
+      "cutoff_2024": 73.8,
+      "cutoff_2025": 74.1
+    },
+    {
+      "college_id": "VJTI001",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 94.0,
+      "cutoff_2024": 94.3,
+      "cutoff_2025": 94.6
+    },
+    {
+      "college_id": "VJTI001",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 89.0,
+      "cutoff_2024": 89.3,
+      "cutoff_2025": 89.6
+    },
+    {
+      "college_id": "COEP002",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 93.5,
+      "cutoff_2024": 93.8,
+      "cutoff_2025": 94.1
+    },
+    {
+      "college_id": "COEP002",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 88.5,
+      "cutoff_2024": 88.8,
+      "cutoff_2025": 89.1
+    },
+    {
+      "college_id": "WALC011",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 85.0,
+      "cutoff_2024": 85.3,
+      "cutoff_2025": 85.6
+    },
+    {
+      "college_id": "WALC011",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 80.0,
+      "cutoff_2024": 80.3,
+      "cutoff_2025": 80.6
+    },
+    {
+      "college_id": "SGGSIE044",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 86.0,
+      "cutoff_2024": 86.3,
+      "cutoff_2025": 86.6
+    },
+    {
+      "college_id": "SGGSIE044",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 81.0,
+      "cutoff_2024": 81.3,
+      "cutoff_2025": 81.6
+    },
+    {
+      "college_id": "GCOE012",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 79.0,
+      "cutoff_2024": 79.3,
+      "cutoff_2025": 79.6
+    },
+    {
+      "college_id": "GCOE012",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 74.0,
+      "cutoff_2024": 74.3,
+      "cutoff_2025": 74.6
+    },
+    {
+      "college_id": "GCOEN021",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 78.0,
+      "cutoff_2024": 78.3,
+      "cutoff_2025": 78.6
+    },
+    {
+      "college_id": "GCOEN021",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 73.0,
+      "cutoff_2024": 73.3,
+      "cutoff_2025": 73.6
+    },
+    {
+      "college_id": "GCOB039",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 77.5,
+      "cutoff_2024": 77.8,
+      "cutoff_2025": 78.1
+    },
+    {
+      "college_id": "GCOB039",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 72.5,
+      "cutoff_2024": 72.8,
+      "cutoff_2025": 73.1
+    },
+    {
+      "college_id": "PICT013",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 87.0,
+      "cutoff_2024": 87.3,
+      "cutoff_2025": 87.6
+    },
+    {
+      "college_id": "PICT013",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 82.0,
+      "cutoff_2024": 82.3,
+      "cutoff_2025": 82.6
+    },
+    {
+      "college_id": "VIIT014",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 84.0,
+      "cutoff_2024": 84.3,
+      "cutoff_2025": 84.6
+    },
+    {
+      "college_id": "VIIT014",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 79.0,
+      "cutoff_2024": 79.3,
+      "cutoff_2025": 79.6
+    },
+    {
+      "college_id": "SITS015",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 86.0,
+      "cutoff_2024": 86.3,
+      "cutoff_2025": 86.6
+    },
+    {
+      "college_id": "SITS015",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 81.0,
+      "cutoff_2024": 81.3,
+      "cutoff_2025": 81.6
+    },
+    {
+      "college_id": "MITW016",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 84.5,
+      "cutoff_2024": 84.8,
+      "cutoff_2025": 85.1
+    },
+    {
+      "college_id": "MITW016",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 79.5,
+      "cutoff_2024": 79.8,
+      "cutoff_2025": 80.1
+    },
+    {
+      "college_id": "FCRI017",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 82.0,
+      "cutoff_2024": 82.3,
+      "cutoff_2025": 82.6
+    },
+    {
+      "college_id": "FCRI017",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 77.0,
+      "cutoff_2024": 77.3,
+      "cutoff_2025": 77.6
+    },
+    {
+      "college_id": "RAIT018",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 80.0,
+      "cutoff_2024": 80.3,
+      "cutoff_2025": 80.6
+    },
+    {
+      "college_id": "RAIT018",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 75.0,
+      "cutoff_2024": 75.3,
+      "cutoff_2025": 75.6
+    },
+    {
+      "college_id": "PIIT019",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 76.0,
+      "cutoff_2024": 76.3,
+      "cutoff_2025": 76.6
+    },
+    {
+      "college_id": "PIIT019",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 71.0,
+      "cutoff_2024": 71.3,
+      "cutoff_2025": 71.6
+    },
+    {
+      "college_id": "GCOEN034",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 77.5,
+      "cutoff_2024": 77.8,
+      "cutoff_2025": 78.1
+    },
+    {
+      "college_id": "GCOEN034",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 72.5,
+      "cutoff_2024": 72.8,
+      "cutoff_2025": 73.1
+    },
+    {
+      "college_id": "NDMVP033",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 80.5,
+      "cutoff_2024": 80.8,
+      "cutoff_2025": 81.1
+    },
+    {
+      "college_id": "NDMVP033",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 75.5,
+      "cutoff_2024": 75.8,
+      "cutoff_2025": 76.1
+    },
+    {
+      "college_id": "BVCOE032",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 75.0,
+      "cutoff_2024": 75.3,
+      "cutoff_2025": 75.6
+    },
+    {
+      "college_id": "BVCOE032",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 70.0,
+      "cutoff_2024": 70.3,
+      "cutoff_2025": 70.6
+    },
+    {
+      "college_id": "YCCE023",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 79.0,
+      "cutoff_2024": 79.3,
+      "cutoff_2025": 79.6
+    },
+    {
+      "college_id": "YCCE023",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 74.0,
+      "cutoff_2024": 74.3,
+      "cutoff_2025": 74.6
+    },
+    {
+      "college_id": "JNEC086",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 80.0,
+      "cutoff_2024": 80.3,
+      "cutoff_2025": 80.6
+    },
+    {
+      "college_id": "JNEC086",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 75.0,
+      "cutoff_2024": 75.3,
+      "cutoff_2025": 75.6
+    },
+    {
+      "college_id": "BAMU046",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 74.0,
+      "cutoff_2024": 74.3,
+      "cutoff_2025": 74.6
+    },
+    {
+      "college_id": "BAMU046",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 69.0,
+      "cutoff_2024": 69.3,
+      "cutoff_2025": 69.6
+    },
+    {
+      "college_id": "KIT042",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 75.5,
+      "cutoff_2024": 75.8,
+      "cutoff_2025": 76.1
+    },
+    {
+      "college_id": "KIT042",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 70.5,
+      "cutoff_2024": 70.8,
+      "cutoff_2025": 71.1
+    },
+    {
+      "college_id": "WIT040",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 73.5,
+      "cutoff_2024": 73.8,
+      "cutoff_2025": 74.1
+    },
+    {
+      "college_id": "WIT040",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 68.5,
+      "cutoff_2024": 68.8,
+      "cutoff_2025": 69.1
+    },
+    {
+      "college_id": "PVPI009",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 82.0,
+      "cutoff_2024": 82.3,
+      "cutoff_2025": 82.6
+    },
+    {
+      "college_id": "PVPI009",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 77.0,
+      "cutoff_2024": 77.3,
+      "cutoff_2025": 77.6
+    },
+    {
+      "college_id": "CUMM010",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 83.0,
+      "cutoff_2024": 83.3,
+      "cutoff_2025": 83.6
+    },
+    {
+      "college_id": "CUMM010",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 78.0,
+      "cutoff_2024": 78.3,
+      "cutoff_2025": 78.6
+    },
+    {
+      "college_id": "SINHGAD079",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 76.0,
+      "cutoff_2024": 76.3,
+      "cutoff_2025": 76.6
+    },
+    {
+      "college_id": "SINHGAD079",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 71.0,
+      "cutoff_2024": 71.3,
+      "cutoff_2025": 71.6
+    },
+    {
+      "college_id": "AISSMS080",
+      "branch_code": "CE",
+      "category": "OPEN",
+      "cutoff_2023": 75.5,
+      "cutoff_2024": 75.8,
+      "cutoff_2025": 76.1
+    },
+    {
+      "college_id": "AISSMS080",
+      "branch_code": "CE",
+      "category": "OBC",
+      "cutoff_2023": 70.5,
+      "cutoff_2024": 70.8,
+      "cutoff_2025": 71.1
+    },
+    {
+      "college_id": "VJTI001",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 97.5,
+      "cutoff_2024": 97.8,
+      "cutoff_2025": 98.1
+    },
+    {
+      "college_id": "VJTI001",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 92.5,
+      "cutoff_2024": 92.8,
+      "cutoff_2025": 93.1
+    },
+    {
+      "college_id": "VJTI001",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 82.5,
+      "cutoff_2024": 82.8,
+      "cutoff_2025": 83.1
+    },
+    {
+      "college_id": "COEP002",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 96.8,
+      "cutoff_2024": 97.1,
+      "cutoff_2025": 97.4
+    },
+    {
+      "college_id": "COEP002",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 91.8,
+      "cutoff_2024": 92.1,
+      "cutoff_2025": 92.4
+    },
+    {
+      "college_id": "COEP002",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 81.8,
+      "cutoff_2024": 82.1,
+      "cutoff_2025": 82.4
+    },
+    {
+      "college_id": "SPIT003",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 93.5,
+      "cutoff_2024": 93.8,
+      "cutoff_2025": 94.1
+    },
+    {
+      "college_id": "SPIT003",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 88.5,
+      "cutoff_2024": 88.8,
+      "cutoff_2025": 89.1
+    },
+    {
+      "college_id": "SPIT003",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 78.5,
+      "cutoff_2024": 78.8,
+      "cutoff_2025": 79.1
+    },
+    {
+      "college_id": "DJSN004",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 93.0,
+      "cutoff_2024": 93.4,
+      "cutoff_2025": 93.8
+    },
+    {
+      "college_id": "DJSN004",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 88.0,
+      "cutoff_2024": 88.4,
+      "cutoff_2025": 88.8
+    },
+    {
+      "college_id": "DJSN004",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 78.0,
+      "cutoff_2024": 78.4,
+      "cutoff_2025": 78.8
+    },
+    {
+      "college_id": "KJSC005",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 92.0,
+      "cutoff_2024": 92.3,
+      "cutoff_2025": 92.6
+    },
+    {
+      "college_id": "KJSC005",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 87.0,
+      "cutoff_2024": 87.3,
+      "cutoff_2025": 87.6
+    },
+    {
+      "college_id": "KJSC005",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 77.0,
+      "cutoff_2024": 77.3,
+      "cutoff_2025": 77.6
+    },
+    {
+      "college_id": "TSEC007",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 91.2,
+      "cutoff_2024": 91.5,
+      "cutoff_2025": 91.8
+    },
+    {
+      "college_id": "TSEC007",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 86.2,
+      "cutoff_2024": 86.5,
+      "cutoff_2025": 86.8
+    },
+    {
+      "college_id": "TSEC007",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 76.2,
+      "cutoff_2024": 76.5,
+      "cutoff_2025": 76.8
+    },
+    {
+      "college_id": "VESI008",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 90.5,
+      "cutoff_2024": 90.8,
+      "cutoff_2025": 91.1
+    },
+    {
+      "college_id": "VESI008",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 85.5,
+      "cutoff_2024": 85.8,
+      "cutoff_2025": 86.1
+    },
+    {
+      "college_id": "VESI008",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 75.5,
+      "cutoff_2024": 75.8,
+      "cutoff_2025": 76.1
+    },
+    {
+      "college_id": "PICT013",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 92.5,
+      "cutoff_2024": 92.8,
+      "cutoff_2025": 93.1
+    },
+    {
+      "college_id": "PICT013",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 87.5,
+      "cutoff_2024": 87.8,
+      "cutoff_2025": 88.1
+    },
+    {
+      "college_id": "PICT013",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 77.5,
+      "cutoff_2024": 77.8,
+      "cutoff_2025": 78.1
+    },
+    {
+      "college_id": "VIIT014",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 89.5,
+      "cutoff_2024": 89.8,
+      "cutoff_2025": 90.1
+    },
+    {
+      "college_id": "VIIT014",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 84.5,
+      "cutoff_2024": 84.8,
+      "cutoff_2025": 85.1
+    },
+    {
+      "college_id": "VIIT014",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 74.5,
+      "cutoff_2024": 74.8,
+      "cutoff_2025": 75.1
+    },
+    {
+      "college_id": "SITS015",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 91.0,
+      "cutoff_2024": 91.3,
+      "cutoff_2025": 91.6
+    },
+    {
+      "college_id": "SITS015",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 86.0,
+      "cutoff_2024": 86.3,
+      "cutoff_2025": 86.6
+    },
+    {
+      "college_id": "SITS015",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 76.0,
+      "cutoff_2024": 76.3,
+      "cutoff_2025": 76.6
+    },
+    {
+      "college_id": "MITW016",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 89.0,
+      "cutoff_2024": 89.3,
+      "cutoff_2025": 89.6
+    },
+    {
+      "college_id": "MITW016",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 84.0,
+      "cutoff_2024": 84.3,
+      "cutoff_2025": 84.6
+    },
+    {
+      "college_id": "MITW016",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 74.0,
+      "cutoff_2024": 74.3,
+      "cutoff_2025": 74.6
+    },
+    {
+      "college_id": "FCRI017",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 88.0,
+      "cutoff_2024": 88.3,
+      "cutoff_2025": 88.6
+    },
+    {
+      "college_id": "FCRI017",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 83.0,
+      "cutoff_2024": 83.3,
+      "cutoff_2025": 83.6
+    },
+    {
+      "college_id": "FCRI017",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 73.0,
+      "cutoff_2024": 73.3,
+      "cutoff_2025": 73.6
+    },
+    {
+      "college_id": "RAIT018",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 86.5,
+      "cutoff_2024": 86.8,
+      "cutoff_2025": 87.1
+    },
+    {
+      "college_id": "RAIT018",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 81.5,
+      "cutoff_2024": 81.8,
+      "cutoff_2025": 82.1
+    },
+    {
+      "college_id": "RAIT018",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 71.5,
+      "cutoff_2024": 71.8,
+      "cutoff_2025": 72.1
+    },
+    {
+      "college_id": "WALC011",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 87.0,
+      "cutoff_2024": 87.3,
+      "cutoff_2025": 87.6
+    },
+    {
+      "college_id": "WALC011",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 82.0,
+      "cutoff_2024": 82.3,
+      "cutoff_2025": 82.6
+    },
+    {
+      "college_id": "WALC011",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 72.0,
+      "cutoff_2024": 72.3,
+      "cutoff_2025": 72.6
+    },
+    {
+      "college_id": "SGGSIE044",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 89.5,
+      "cutoff_2024": 89.8,
+      "cutoff_2025": 90.1
+    },
+    {
+      "college_id": "SGGSIE044",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 84.5,
+      "cutoff_2024": 84.8,
+      "cutoff_2025": 85.1
+    },
+    {
+      "college_id": "SGGSIE044",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 74.5,
+      "cutoff_2024": 74.8,
+      "cutoff_2025": 75.1
+    },
+    {
+      "college_id": "GCOEN021",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 84.0,
+      "cutoff_2024": 84.3,
+      "cutoff_2025": 84.6
+    },
+    {
+      "college_id": "GCOEN021",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 79.0,
+      "cutoff_2024": 79.3,
+      "cutoff_2025": 79.6
+    },
+    {
+      "college_id": "GCOEN021",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 69.0,
+      "cutoff_2024": 69.3,
+      "cutoff_2025": 69.6
+    },
+    {
+      "college_id": "YCCE023",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 85.5,
+      "cutoff_2024": 85.8,
+      "cutoff_2025": 86.1
+    },
+    {
+      "college_id": "YCCE023",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 80.5,
+      "cutoff_2024": 80.8,
+      "cutoff_2025": 81.1
+    },
+    {
+      "college_id": "YCCE023",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 70.5,
+      "cutoff_2024": 70.8,
+      "cutoff_2025": 71.1
+    },
+    {
+      "college_id": "NDMVP033",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 86.0,
+      "cutoff_2024": 86.3,
+      "cutoff_2025": 86.6
+    },
+    {
+      "college_id": "NDMVP033",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 81.0,
+      "cutoff_2024": 81.3,
+      "cutoff_2025": 81.6
+    },
+    {
+      "college_id": "NDMVP033",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 71.0,
+      "cutoff_2024": 71.3,
+      "cutoff_2025": 71.6
+    },
+    {
+      "college_id": "GCOEN034",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 82.5,
+      "cutoff_2024": 82.8,
+      "cutoff_2025": 83.1
+    },
+    {
+      "college_id": "GCOEN034",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 77.5,
+      "cutoff_2024": 77.8,
+      "cutoff_2025": 78.1
+    },
+    {
+      "college_id": "GCOEN034",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 67.5,
+      "cutoff_2024": 67.8,
+      "cutoff_2025": 68.1
+    },
+    {
+      "college_id": "DKTE041",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 85.0,
+      "cutoff_2024": 85.3,
+      "cutoff_2025": 85.6
+    },
+    {
+      "college_id": "DKTE041",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 80.0,
+      "cutoff_2024": 80.3,
+      "cutoff_2025": 80.6
+    },
+    {
+      "college_id": "DKTE041",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 70.0,
+      "cutoff_2024": 70.3,
+      "cutoff_2025": 70.6
+    },
+    {
+      "college_id": "BVCOE078",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 89.0,
+      "cutoff_2024": 89.3,
+      "cutoff_2025": 89.6
+    },
+    {
+      "college_id": "BVCOE078",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 84.0,
+      "cutoff_2024": 84.3,
+      "cutoff_2025": 84.6
+    },
+    {
+      "college_id": "BVCOE078",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 74.0,
+      "cutoff_2024": 74.3,
+      "cutoff_2025": 74.6
+    },
+    {
+      "college_id": "PVPI009",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 88.0,
+      "cutoff_2024": 88.3,
+      "cutoff_2025": 88.6
+    },
+    {
+      "college_id": "PVPI009",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 83.0,
+      "cutoff_2024": 83.3,
+      "cutoff_2025": 83.6
+    },
+    {
+      "college_id": "PVPI009",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 73.0,
+      "cutoff_2024": 73.3,
+      "cutoff_2025": 73.6
+    },
+    {
+      "college_id": "CUMM010",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 88.5,
+      "cutoff_2024": 88.8,
+      "cutoff_2025": 89.1
+    },
+    {
+      "college_id": "CUMM010",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 83.5,
+      "cutoff_2024": 83.8,
+      "cutoff_2025": 84.1
+    },
+    {
+      "college_id": "CUMM010",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 73.5,
+      "cutoff_2024": 73.8,
+      "cutoff_2025": 74.1
+    },
+    {
+      "college_id": "MPSTME061",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 90.5,
+      "cutoff_2024": 90.8,
+      "cutoff_2025": 91.1
+    },
+    {
+      "college_id": "MPSTME061",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 85.5,
+      "cutoff_2024": 85.8,
+      "cutoff_2025": 86.1
+    },
+    {
+      "college_id": "MPSTME061",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 75.5,
+      "cutoff_2024": 75.8,
+      "cutoff_2025": 76.1
+    },
+    {
+      "college_id": "SVKM062",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 91.5,
+      "cutoff_2024": 91.8,
+      "cutoff_2025": 92.1
+    },
+    {
+      "college_id": "SVKM062",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 86.5,
+      "cutoff_2024": 86.8,
+      "cutoff_2025": 87.1
+    },
+    {
+      "college_id": "SVKM062",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 76.5,
+      "cutoff_2024": 76.8,
+      "cutoff_2025": 77.1
+    },
+    {
+      "college_id": "SIESGST065",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 89.0,
+      "cutoff_2024": 89.3,
+      "cutoff_2025": 89.6
+    },
+    {
+      "college_id": "SIESGST065",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 84.0,
+      "cutoff_2024": 84.3,
+      "cutoff_2025": 84.6
+    },
+    {
+      "college_id": "SIESGST065",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 74.0,
+      "cutoff_2024": 74.3,
+      "cutoff_2025": 74.6
+    },
+    {
+      "college_id": "PILLAI066",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 87.5,
+      "cutoff_2024": 87.8,
+      "cutoff_2025": 88.1
+    },
+    {
+      "college_id": "PILLAI066",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 82.5,
+      "cutoff_2024": 82.8,
+      "cutoff_2025": 83.1
+    },
+    {
+      "college_id": "PILLAI066",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 72.5,
+      "cutoff_2024": 72.8,
+      "cutoff_2025": 73.1
+    },
+    {
+      "college_id": "JNEC086",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 86.5,
+      "cutoff_2024": 86.8,
+      "cutoff_2025": 87.1
+    },
+    {
+      "college_id": "JNEC086",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 81.5,
+      "cutoff_2024": 81.8,
+      "cutoff_2025": 82.1
+    },
+    {
+      "college_id": "JNEC086",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 71.5,
+      "cutoff_2024": 71.8,
+      "cutoff_2025": 72.1
+    },
+    {
+      "college_id": "GCOE012",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 82.0,
+      "cutoff_2024": 82.3,
+      "cutoff_2025": 82.6
+    },
+    {
+      "college_id": "GCOE012",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 77.0,
+      "cutoff_2024": 77.3,
+      "cutoff_2025": 77.6
+    },
+    {
+      "college_id": "GCOE012",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 67.0,
+      "cutoff_2024": 67.3,
+      "cutoff_2025": 67.6
+    },
+    {
+      "college_id": "GCOB039",
+      "branch_code": "EL",
+      "category": "OPEN",
+      "cutoff_2023": 80.5,
+      "cutoff_2024": 80.8,
+      "cutoff_2025": 81.1
+    },
+    {
+      "college_id": "GCOB039",
+      "branch_code": "EL",
+      "category": "OBC",
+      "cutoff_2023": 75.5,
+      "cutoff_2024": 75.8,
+      "cutoff_2025": 76.1
+    },
+    {
+      "college_id": "GCOB039",
+      "branch_code": "EL",
+      "category": "SC",
+      "cutoff_2023": 65.5,
+      "cutoff_2024": 65.8,
+      "cutoff_2025": 66.1
+    }
+  ],
+  "placements": [
+    {
+      "college_id": "VJTI001",
+      "avg_pkg": 22.4,
+      "highest_pkg": 68.0,
+      "placement_pct": 94,
+      "top_recruiters": [
+        "Google",
+        "Microsoft",
+        "Goldman Sachs",
+        "Samsung",
+        "Infosys"
+      ]
+    },
+    {
+      "college_id": "COEP002",
+      "avg_pkg": 21.0,
+      "highest_pkg": 55.0,
+      "placement_pct": 91,
+      "top_recruiters": [
+        "Amazon",
+        "Persistent",
+        "NVIDIA",
+        "Cognizant",
+        "Infosys"
+      ]
+    },
+    {
+      "college_id": "SPIT003",
+      "avg_pkg": 18.0,
+      "highest_pkg": 44.0,
+      "placement_pct": 88,
+      "top_recruiters": [
+        "Capgemini",
+        "Accenture",
+        "TCS",
+        "Infosys",
+        "L&T"
+      ]
+    },
+    {
+      "college_id": "DJSN004",
+      "avg_pkg": 20.0,
+      "highest_pkg": 48.0,
+      "placement_pct": 90,
+      "top_recruiters": [
+        "JP Morgan",
+        "Deutsche Bank",
+        "TCS",
+        "Infosys",
+        "Deloitte"
+      ]
+    },
+    {
+      "college_id": "KJSC005",
+      "avg_pkg": 16.0,
+      "highest_pkg": 38.0,
+      "placement_pct": 85,
+      "top_recruiters": [
+        "Capgemini",
+        "Cognizant",
+        "Wipro",
+        "HCL",
+        "Mphasis"
+      ]
+    },
+    {
+      "college_id": "ICTM006",
+      "avg_pkg": 18.0,
+      "highest_pkg": 40.0,
+      "placement_pct": 89,
+      "top_recruiters": [
+        "Reliance",
+        "Asian Paints",
+        "TCS",
+        "Infosys",
+        "Accenture"
+      ]
+    },
+    {
+      "college_id": "TSEC007",
+      "avg_pkg": 16.0,
+      "highest_pkg": 35.0,
+      "placement_pct": 84,
+      "top_recruiters": [
+        "Capgemini",
+        "Mphasis",
+        "TCS",
+        "Infosys",
+        "Cognizant"
+      ]
+    },
+    {
+      "college_id": "VESI008",
+      "avg_pkg": 15.0,
+      "highest_pkg": 32.0,
+      "placement_pct": 82,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "HCL",
+        "Infosys",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "PVPI009",
+      "avg_pkg": 17.0,
+      "highest_pkg": 36.0,
+      "placement_pct": 86,
+      "top_recruiters": [
+        "Persistent",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "Accenture"
+      ]
+    },
+    {
+      "college_id": "CUMM010",
+      "avg_pkg": 18.0,
+      "highest_pkg": 38.0,
+      "placement_pct": 87,
+      "top_recruiters": [
+        "Cummins",
+        "Persistent",
+        "TCS",
+        "Infosys",
+        "Accenture"
+      ]
+    },
+    {
+      "college_id": "WALC011",
+      "avg_pkg": 15.0,
+      "highest_pkg": 30.0,
+      "placement_pct": 83,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "GCOE012",
+      "avg_pkg": 13.0,
+      "highest_pkg": 26.0,
+      "placement_pct": 78,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "Tech Mahindra",
+        "HCL"
+      ]
+    },
+    {
+      "college_id": "PICT013",
+      "avg_pkg": 19.5,
+      "highest_pkg": 46.0,
+      "placement_pct": 90,
+      "top_recruiters": [
+        "Persistent",
+        "Infosys",
+        "TCS",
+        "Cognizant",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "VIIT014",
+      "avg_pkg": 16.5,
+      "highest_pkg": 34.0,
+      "placement_pct": 84,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "Capgemini",
+        "HCL"
+      ]
+    },
+    {
+      "college_id": "SITS015",
+      "avg_pkg": 20.0,
+      "highest_pkg": 45.0,
+      "placement_pct": 91,
+      "top_recruiters": [
+        "Infosys",
+        "Wipro",
+        "Accenture",
+        "Cognizant",
+        "TCS"
+      ]
+    },
+    {
+      "college_id": "MITW016",
+      "avg_pkg": 17.0,
+      "highest_pkg": 36.0,
+      "placement_pct": 85,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "Capgemini",
+        "Accenture"
+      ]
+    },
+    {
+      "college_id": "FCRI017",
+      "avg_pkg": 16.0,
+      "highest_pkg": 33.0,
+      "placement_pct": 83,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "HCL",
+        "Infosys",
+        "Cognizant"
+      ]
+    },
+    {
+      "college_id": "RAIT018",
+      "avg_pkg": 14.0,
+      "highest_pkg": 28.0,
+      "placement_pct": 80,
+      "top_recruiters": [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Capgemini",
+        "HCL"
+      ]
+    },
+    {
+      "college_id": "PIIT019",
+      "avg_pkg": 12.0,
+      "highest_pkg": 24.0,
+      "placement_pct": 75,
+      "top_recruiters": [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "VPCOE020",
+      "avg_pkg": 11.0,
+      "highest_pkg": 22.0,
+      "placement_pct": 72,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Mphasis"
+      ]
+    },
+    {
+      "college_id": "GCOEN021",
+      "avg_pkg": 12.5,
+      "highest_pkg": 25.0,
+      "placement_pct": 76,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "RKNC022",
+      "avg_pkg": 11.0,
+      "highest_pkg": 21.0,
+      "placement_pct": 70,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "YCCE023",
+      "avg_pkg": 14.0,
+      "highest_pkg": 30.0,
+      "placement_pct": 82,
+      "top_recruiters": [
+        "Persistent",
+        "Infosys",
+        "TCS",
+        "Wipro",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "KITS024",
+      "avg_pkg": 10.0,
+      "highest_pkg": 18.0,
+      "placement_pct": 65,
+      "top_recruiters": [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "PCOE025",
+      "avg_pkg": 11.5,
+      "highest_pkg": 22.0,
+      "placement_pct": 72,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "Capgemini",
+        "HCL"
+      ]
+    },
+    {
+      "college_id": "DYPIT026",
+      "avg_pkg": 16.0,
+      "highest_pkg": 35.0,
+      "placement_pct": 84,
+      "top_recruiters": [
+        "Infosys",
+        "TCS",
+        "Wipro",
+        "Accenture",
+        "Cognizant"
+      ]
+    },
+    {
+      "college_id": "SCOE027",
+      "avg_pkg": 11.0,
+      "highest_pkg": 22.0,
+      "placement_pct": 70,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Mphasis"
+      ]
+    },
+    {
+      "college_id": "JSPM028",
+      "avg_pkg": 10.5,
+      "highest_pkg": 20.0,
+      "placement_pct": 68,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "AVCOE029",
+      "avg_pkg": 10.0,
+      "highest_pkg": 19.0,
+      "placement_pct": 65,
+      "top_recruiters": [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "PREC030",
+      "avg_pkg": 9.0,
+      "highest_pkg": 17.0,
+      "placement_pct": 60,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "SRES031",
+      "avg_pkg": 8.5,
+      "highest_pkg": 16.0,
+      "placement_pct": 58,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Mphasis"
+      ]
+    },
+    {
+      "college_id": "BVCOE032",
+      "avg_pkg": 11.5,
+      "highest_pkg": 23.0,
+      "placement_pct": 72,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "Capgemini",
+        "HCL"
+      ]
+    },
+    {
+      "college_id": "NDMVP033",
+      "avg_pkg": 14.5,
+      "highest_pkg": 30.0,
+      "placement_pct": 82,
+      "top_recruiters": [
+        "Persistent",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant"
+      ]
+    },
+    {
+      "college_id": "GCOEN034",
+      "avg_pkg": 12.0,
+      "highest_pkg": 24.0,
+      "placement_pct": 74,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "SITS035",
+      "avg_pkg": 9.0,
+      "highest_pkg": 17.0,
+      "placement_pct": 60,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "MAEER036",
+      "avg_pkg": 12.0,
+      "highest_pkg": 24.0,
+      "placement_pct": 74,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "Capgemini",
+        "HCL"
+      ]
+    },
+    {
+      "college_id": "BSIO037",
+      "avg_pkg": 8.0,
+      "highest_pkg": 15.0,
+      "placement_pct": 55,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "SVPM038",
+      "avg_pkg": 7.5,
+      "highest_pkg": 14.0,
+      "placement_pct": 50,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Mphasis"
+      ]
+    },
+    {
+      "college_id": "GCOB039",
+      "avg_pkg": 12.0,
+      "highest_pkg": 23.0,
+      "placement_pct": 74,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "WIT040",
+      "avg_pkg": 11.0,
+      "highest_pkg": 21.0,
+      "placement_pct": 70,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "DKTE041",
+      "avg_pkg": 13.5,
+      "highest_pkg": 27.0,
+      "placement_pct": 80,
+      "top_recruiters": [
+        "Textile",
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "Kirloskar"
+      ]
+    },
+    {
+      "college_id": "KIT042",
+      "avg_pkg": 11.5,
+      "highest_pkg": 22.0,
+      "placement_pct": 72,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "DYPCO043",
+      "avg_pkg": 10.5,
+      "highest_pkg": 20.0,
+      "placement_pct": 68,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "SGGSIE044",
+      "avg_pkg": 17.0,
+      "highest_pkg": 38.0,
+      "placement_pct": 87,
+      "top_recruiters": [
+        "Infosys",
+        "TCS",
+        "Wipro",
+        "Accenture",
+        "Cognizant"
+      ]
+    },
+    {
+      "college_id": "MGMCOE045",
+      "avg_pkg": 10.0,
+      "highest_pkg": 19.0,
+      "placement_pct": 64,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "BAMU046",
+      "avg_pkg": 11.0,
+      "highest_pkg": 21.0,
+      "placement_pct": 70,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "MSSCOE047",
+      "avg_pkg": 12.0,
+      "highest_pkg": 23.0,
+      "placement_pct": 74,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "Capgemini",
+        "HCL"
+      ]
+    },
+    {
+      "college_id": "GHRCE048",
+      "avg_pkg": 11.0,
+      "highest_pkg": 21.0,
+      "placement_pct": 70,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "BDCOE049",
+      "avg_pkg": 8.5,
+      "highest_pkg": 16.0,
+      "placement_pct": 58,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Mphasis"
+      ]
+    },
+    {
+      "college_id": "GCOA050",
+      "avg_pkg": 12.0,
+      "highest_pkg": 23.0,
+      "placement_pct": 74,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "PRMIT051",
+      "avg_pkg": 8.0,
+      "highest_pkg": 15.0,
+      "placement_pct": 55,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "KDKCE052",
+      "avg_pkg": 10.5,
+      "highest_pkg": 20.0,
+      "placement_pct": 67,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "LGNCE053",
+      "avg_pkg": 9.0,
+      "highest_pkg": 17.0,
+      "placement_pct": 60,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "JDIET054",
+      "avg_pkg": 8.0,
+      "highest_pkg": 15.0,
+      "placement_pct": 54,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Mphasis"
+      ]
+    },
+    {
+      "college_id": "MVSR055",
+      "avg_pkg": 7.5,
+      "highest_pkg": 14.0,
+      "placement_pct": 50,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "PHCET056",
+      "avg_pkg": 14.0,
+      "highest_pkg": 28.0,
+      "placement_pct": 80,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "Capgemini",
+        "HCL"
+      ]
+    },
+    {
+      "college_id": "LTCE057",
+      "avg_pkg": 15.5,
+      "highest_pkg": 32.0,
+      "placement_pct": 83,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "Capgemini",
+        "HCL"
+      ]
+    },
+    {
+      "college_id": "AGPCE058",
+      "avg_pkg": 13.5,
+      "highest_pkg": 27.0,
+      "placement_pct": 79,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "FCRCE059",
+      "avg_pkg": 16.5,
+      "highest_pkg": 34.0,
+      "placement_pct": 85,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "JP Morgan",
+        "Infosys",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "SATCOE060",
+      "avg_pkg": 12.5,
+      "highest_pkg": 25.0,
+      "placement_pct": 76,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "MPSTME061",
+      "avg_pkg": 18.5,
+      "highest_pkg": 42.0,
+      "placement_pct": 89,
+      "top_recruiters": [
+        "Microsoft",
+        "Infosys",
+        "TCS",
+        "Wipro",
+        "Accenture"
+      ]
+    },
+    {
+      "college_id": "SVKM062",
+      "avg_pkg": 20.5,
+      "highest_pkg": 50.0,
+      "placement_pct": 91,
+      "top_recruiters": [
+        "Deloitte",
+        "Goldman Sachs",
+        "TCS",
+        "Infosys",
+        "Accenture"
+      ]
+    },
+    {
+      "college_id": "TSIT063",
+      "avg_pkg": 12.0,
+      "highest_pkg": 23.0,
+      "placement_pct": 74,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "ARMIET064",
+      "avg_pkg": 9.5,
+      "highest_pkg": 18.0,
+      "placement_pct": 62,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "SIESGST065",
+      "avg_pkg": 17.0,
+      "highest_pkg": 36.0,
+      "placement_pct": 86,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "Capgemini",
+        "Accenture"
+      ]
+    },
+    {
+      "college_id": "PILLAI066",
+      "avg_pkg": 16.0,
+      "highest_pkg": 33.0,
+      "placement_pct": 84,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "MESCOE067",
+      "avg_pkg": 11.5,
+      "highest_pkg": 22.0,
+      "placement_pct": 72,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "INDIRA068",
+      "avg_pkg": 10.5,
+      "highest_pkg": 20.0,
+      "placement_pct": 68,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "TCOER069",
+      "avg_pkg": 10.0,
+      "highest_pkg": 19.0,
+      "placement_pct": 65,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Mphasis"
+      ]
+    },
+    {
+      "college_id": "SPPU070",
+      "avg_pkg": 14.0,
+      "highest_pkg": 28.0,
+      "placement_pct": 80,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "Capgemini",
+        "HCL"
+      ]
+    },
+    {
+      "college_id": "RIZVI071",
+      "avg_pkg": 12.0,
+      "highest_pkg": 24.0,
+      "placement_pct": 74,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "XAVIER072",
+      "avg_pkg": 10.0,
+      "highest_pkg": 19.0,
+      "placement_pct": 65,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "DPIT073",
+      "avg_pkg": 13.0,
+      "highest_pkg": 26.0,
+      "placement_pct": 78,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "SAKEC074",
+      "avg_pkg": 14.5,
+      "highest_pkg": 29.0,
+      "placement_pct": 81,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "Capgemini",
+        "HCL"
+      ]
+    },
+    {
+      "college_id": "THADOM075",
+      "avg_pkg": 16.0,
+      "highest_pkg": 33.0,
+      "placement_pct": 84,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "Capgemini",
+        "Accenture"
+      ]
+    },
+    {
+      "college_id": "VIVA076",
+      "avg_pkg": 10.0,
+      "highest_pkg": 19.0,
+      "placement_pct": 64,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "DOMBIV077",
+      "avg_pkg": 9.0,
+      "highest_pkg": 17.0,
+      "placement_pct": 60,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Mphasis"
+      ]
+    },
+    {
+      "college_id": "BVCOE078",
+      "avg_pkg": 17.0,
+      "highest_pkg": 36.0,
+      "placement_pct": 86,
+      "top_recruiters": [
+        "Persistent",
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "SINHGAD079",
+      "avg_pkg": 12.0,
+      "highest_pkg": 24.0,
+      "placement_pct": 74,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "AISSMS080",
+      "avg_pkg": 12.0,
+      "highest_pkg": 23.0,
+      "placement_pct": 73,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "GCOEK081",
+      "avg_pkg": 12.0,
+      "highest_pkg": 23.0,
+      "placement_pct": 74,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "SITRC082",
+      "avg_pkg": 9.5,
+      "highest_pkg": 18.0,
+      "placement_pct": 62,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "KBTCOE083",
+      "avg_pkg": 8.5,
+      "highest_pkg": 16.0,
+      "placement_pct": 58,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Mphasis"
+      ]
+    },
+    {
+      "college_id": "AMGOI084",
+      "avg_pkg": 7.5,
+      "highest_pkg": 14.0,
+      "placement_pct": 50,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "GCOEAB085",
+      "avg_pkg": 11.0,
+      "highest_pkg": 21.0,
+      "placement_pct": 70,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "JNEC086",
+      "avg_pkg": 14.5,
+      "highest_pkg": 29.0,
+      "placement_pct": 81,
+      "top_recruiters": [
+        "Persistent",
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL"
+      ]
+    },
+    {
+      "college_id": "MGSM087",
+      "avg_pkg": 10.0,
+      "highest_pkg": 19.0,
+      "placement_pct": 65,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "DEOGIRI088",
+      "avg_pkg": 10.5,
+      "highest_pkg": 20.0,
+      "placement_pct": 67,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "GHRCOE089",
+      "avg_pkg": 12.0,
+      "highest_pkg": 23.0,
+      "placement_pct": 74,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "Capgemini",
+        "HCL"
+      ]
+    },
+    {
+      "college_id": "COEMPU090",
+      "avg_pkg": 9.5,
+      "highest_pkg": 18.0,
+      "placement_pct": 62,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "PCCOER091",
+      "avg_pkg": 11.5,
+      "highest_pkg": 22.0,
+      "placement_pct": 72,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "NBNSOE092",
+      "avg_pkg": 9.0,
+      "highest_pkg": 17.0,
+      "placement_pct": 60,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "SPCOE093",
+      "avg_pkg": 8.5,
+      "highest_pkg": 16.0,
+      "placement_pct": 56,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Mphasis"
+      ]
+    },
+    {
+      "college_id": "MACOEM094",
+      "avg_pkg": 13.0,
+      "highest_pkg": 26.0,
+      "placement_pct": 78,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "MITWPU095",
+      "avg_pkg": 15.5,
+      "highest_pkg": 32.0,
+      "placement_pct": 83,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "Capgemini",
+        "Accenture"
+      ]
+    },
+    {
+      "college_id": "ZEAL096",
+      "avg_pkg": 8.0,
+      "highest_pkg": 15.0,
+      "placement_pct": 54,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "PVGCOE097",
+      "avg_pkg": 11.5,
+      "highest_pkg": 22.0,
+      "placement_pct": 72,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "AISSMSP098",
+      "avg_pkg": 11.5,
+      "highest_pkg": 22.0,
+      "placement_pct": 72,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "GHRIET099",
+      "avg_pkg": 10.5,
+      "highest_pkg": 20.0,
+      "placement_pct": 67,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    },
+    {
+      "college_id": "RMDSSOE100",
+      "avg_pkg": 9.5,
+      "highest_pkg": 18.0,
+      "placement_pct": 62,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Mphasis"
+      ]
+    },
+    {
+      "college_id": "SRCOEM101",
+      "avg_pkg": 10.5,
+      "highest_pkg": 20.0,
+      "placement_pct": 67,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Capgemini"
+      ]
+    },
+    {
+      "college_id": "JDCOEM102",
+      "avg_pkg": 9.0,
+      "highest_pkg": 17.0,
+      "placement_pct": 59,
+      "top_recruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra"
+      ]
+    }
+  ],
+  "fees": [
+    {
+      "college_id": "VJTI001",
+      "annual_fee": 95000,
+      "total_4yr_fee": 420000,
+      "scholarship": true
+    },
+    {
+      "college_id": "COEP002",
+      "annual_fee": 85000,
+      "total_4yr_fee": 370000,
+      "scholarship": true
+    },
+    {
+      "college_id": "SPIT003",
+      "annual_fee": 110000,
+      "total_4yr_fee": 480000,
+      "scholarship": false
+    },
+    {
+      "college_id": "DJSN004",
+      "annual_fee": 95000,
+      "total_4yr_fee": 420000,
+      "scholarship": false
+    },
+    {
+      "college_id": "KJSC005",
+      "annual_fee": 120000,
+      "total_4yr_fee": 520000,
+      "scholarship": false
+    },
+    {
+      "college_id": "ICTM006",
+      "annual_fee": 60000,
+      "total_4yr_fee": 260000,
+      "scholarship": true
+    },
+    {
+      "college_id": "TSEC007",
+      "annual_fee": 110000,
+      "total_4yr_fee": 475000,
+      "scholarship": false
+    },
+    {
+      "college_id": "VESI008",
+      "annual_fee": 115000,
+      "total_4yr_fee": 495000,
+      "scholarship": false
+    },
+    {
+      "college_id": "PVPI009",
+      "annual_fee": 55000,
+      "total_4yr_fee": 235000,
+      "scholarship": true
+    },
+    {
+      "college_id": "CUMM010",
+      "annual_fee": 90000,
+      "total_4yr_fee": 390000,
+      "scholarship": true
+    },
+    {
+      "college_id": "WALC011",
+      "annual_fee": 45000,
+      "total_4yr_fee": 195000,
+      "scholarship": true
+    },
+    {
+      "college_id": "GCOE012",
+      "annual_fee": 35000,
+      "total_4yr_fee": 155000,
+      "scholarship": true
+    },
+    {
+      "college_id": "PICT013",
+      "annual_fee": 105000,
+      "total_4yr_fee": 450000,
+      "scholarship": false
+    },
+    {
+      "college_id": "VIIT014",
+      "annual_fee": 100000,
+      "total_4yr_fee": 430000,
+      "scholarship": false
+    },
+    {
+      "college_id": "SITS015",
+      "annual_fee": 175000,
+      "total_4yr_fee": 720000,
+      "scholarship": false
+    },
+    {
+      "college_id": "MITW016",
+      "annual_fee": 145000,
+      "total_4yr_fee": 590000,
+      "scholarship": false
+    },
+    {
+      "college_id": "FCRI017",
+      "annual_fee": 95000,
+      "total_4yr_fee": 410000,
+      "scholarship": false
+    },
+    {
+      "college_id": "RAIT018",
+      "annual_fee": 85000,
+      "total_4yr_fee": 365000,
+      "scholarship": false
+    },
+    {
+      "college_id": "PIIT019",
+      "annual_fee": 80000,
+      "total_4yr_fee": 345000,
+      "scholarship": false
+    },
+    {
+      "college_id": "VPCOE020",
+      "annual_fee": 40000,
+      "total_4yr_fee": 175000,
+      "scholarship": true
+    },
+    {
+      "college_id": "GCOEN021",
+      "annual_fee": 38000,
+      "total_4yr_fee": 165000,
+      "scholarship": true
+    },
+    {
+      "college_id": "RKNC022",
+      "annual_fee": 75000,
+      "total_4yr_fee": 320000,
+      "scholarship": false
+    },
+    {
+      "college_id": "YCCE023",
+      "annual_fee": 110000,
+      "total_4yr_fee": 470000,
+      "scholarship": false
+    },
+    {
+      "college_id": "KITS024",
+      "annual_fee": 85000,
+      "total_4yr_fee": 365000,
+      "scholarship": false
+    },
+    {
+      "college_id": "PCOE025",
+      "annual_fee": 90000,
+      "total_4yr_fee": 385000,
+      "scholarship": false
+    },
+    {
+      "college_id": "DYPIT026",
+      "annual_fee": 160000,
+      "total_4yr_fee": 650000,
+      "scholarship": false
+    },
+    {
+      "college_id": "SCOE027",
+      "annual_fee": 88000,
+      "total_4yr_fee": 375000,
+      "scholarship": false
+    },
+    {
+      "college_id": "JSPM028",
+      "annual_fee": 82000,
+      "total_4yr_fee": 352000,
+      "scholarship": false
+    },
+    {
+      "college_id": "AVCOE029",
+      "annual_fee": 55000,
+      "total_4yr_fee": 235000,
+      "scholarship": true
+    },
+    {
+      "college_id": "PREC030",
+      "annual_fee": 52000,
+      "total_4yr_fee": 222000,
+      "scholarship": true
+    },
+    {
+      "college_id": "SRES031",
+      "annual_fee": 48000,
+      "total_4yr_fee": 205000,
+      "scholarship": true
+    },
+    {
+      "college_id": "BVCOE032",
+      "annual_fee": 78000,
+      "total_4yr_fee": 334000,
+      "scholarship": false
+    },
+    {
+      "college_id": "NDMVP033",
+      "annual_fee": 65000,
+      "total_4yr_fee": 278000,
+      "scholarship": true
+    },
+    {
+      "college_id": "GCOEN034",
+      "annual_fee": 36000,
+      "total_4yr_fee": 155000,
+      "scholarship": true
+    },
+    {
+      "college_id": "SITS035",
+      "annual_fee": 80000,
+      "total_4yr_fee": 342000,
+      "scholarship": false
+    },
+    {
+      "college_id": "MAEER036",
+      "annual_fee": 92000,
+      "total_4yr_fee": 394000,
+      "scholarship": false
+    },
+    {
+      "college_id": "BSIO037",
+      "annual_fee": 75000,
+      "total_4yr_fee": 320000,
+      "scholarship": false
+    },
+    {
+      "college_id": "SVPM038",
+      "annual_fee": 50000,
+      "total_4yr_fee": 213000,
+      "scholarship": true
+    },
+    {
+      "college_id": "GCOB039",
+      "annual_fee": 35000,
+      "total_4yr_fee": 150000,
+      "scholarship": true
+    },
+    {
+      "college_id": "WIT040",
+      "annual_fee": 70000,
+      "total_4yr_fee": 298000,
+      "scholarship": true
+    },
+    {
+      "college_id": "DKTE041",
+      "annual_fee": 62000,
+      "total_4yr_fee": 265000,
+      "scholarship": true
+    },
+    {
+      "college_id": "KIT042",
+      "annual_fee": 85000,
+      "total_4yr_fee": 362000,
+      "scholarship": false
+    },
+    {
+      "college_id": "DYPCO043",
+      "annual_fee": 88000,
+      "total_4yr_fee": 375000,
+      "scholarship": false
+    },
+    {
+      "college_id": "SGGSIE044",
+      "annual_fee": 42000,
+      "total_4yr_fee": 180000,
+      "scholarship": true
+    },
+    {
+      "college_id": "MGMCOE045",
+      "annual_fee": 90000,
+      "total_4yr_fee": 384000,
+      "scholarship": false
+    },
+    {
+      "college_id": "BAMU046",
+      "annual_fee": 38000,
+      "total_4yr_fee": 162000,
+      "scholarship": true
+    },
+    {
+      "college_id": "MSSCOE047",
+      "annual_fee": 95000,
+      "total_4yr_fee": 405000,
+      "scholarship": false
+    },
+    {
+      "college_id": "GHRCE048",
+      "annual_fee": 88000,
+      "total_4yr_fee": 375000,
+      "scholarship": false
+    },
+    {
+      "college_id": "BDCOE049",
+      "annual_fee": 55000,
+      "total_4yr_fee": 234000,
+      "scholarship": true
+    },
+    {
+      "college_id": "GCOA050",
+      "annual_fee": 36000,
+      "total_4yr_fee": 154000,
+      "scholarship": true
+    },
+    {
+      "college_id": "PRMIT051",
+      "annual_fee": 55000,
+      "total_4yr_fee": 234000,
+      "scholarship": true
+    },
+    {
+      "college_id": "KDKCE052",
+      "annual_fee": 72000,
+      "total_4yr_fee": 306000,
+      "scholarship": false
+    },
+    {
+      "college_id": "LGNCE053",
+      "annual_fee": 78000,
+      "total_4yr_fee": 332000,
+      "scholarship": false
+    },
+    {
+      "college_id": "JDIET054",
+      "annual_fee": 34000,
+      "total_4yr_fee": 145000,
+      "scholarship": true
+    },
+    {
+      "college_id": "MVSR055",
+      "annual_fee": 48000,
+      "total_4yr_fee": 204000,
+      "scholarship": true
+    },
+    {
+      "college_id": "PHCET056",
+      "annual_fee": 110000,
+      "total_4yr_fee": 470000,
+      "scholarship": false
+    },
+    {
+      "college_id": "LTCE057",
+      "annual_fee": 98000,
+      "total_4yr_fee": 418000,
+      "scholarship": false
+    },
+    {
+      "college_id": "AGPCE058",
+      "annual_fee": 105000,
+      "total_4yr_fee": 448000,
+      "scholarship": false
+    },
+    {
+      "college_id": "FCRCE059",
+      "annual_fee": 95000,
+      "total_4yr_fee": 405000,
+      "scholarship": false
+    },
+    {
+      "college_id": "SATCOE060",
+      "annual_fee": 88000,
+      "total_4yr_fee": 375000,
+      "scholarship": false
+    },
+    {
+      "college_id": "MPSTME061",
+      "annual_fee": 185000,
+      "total_4yr_fee": 752000,
+      "scholarship": false
+    },
+    {
+      "college_id": "SVKM062",
+      "annual_fee": 220000,
+      "total_4yr_fee": 895000,
+      "scholarship": false
+    },
+    {
+      "college_id": "TSIT063",
+      "annual_fee": 85000,
+      "total_4yr_fee": 362000,
+      "scholarship": false
+    },
+    {
+      "college_id": "ARMIET064",
+      "annual_fee": 80000,
+      "total_4yr_fee": 340000,
+      "scholarship": false
+    },
+    {
+      "college_id": "SIESGST065",
+      "annual_fee": 100000,
+      "total_4yr_fee": 428000,
+      "scholarship": false
+    },
+    {
+      "college_id": "PILLAI066",
+      "annual_fee": 115000,
+      "total_4yr_fee": 492000,
+      "scholarship": false
+    },
+    {
+      "college_id": "MESCOE067",
+      "annual_fee": 88000,
+      "total_4yr_fee": 376000,
+      "scholarship": false
+    },
+    {
+      "college_id": "INDIRA068",
+      "annual_fee": 85000,
+      "total_4yr_fee": 362000,
+      "scholarship": false
+    },
+    {
+      "college_id": "TCOER069",
+      "annual_fee": 82000,
+      "total_4yr_fee": 350000,
+      "scholarship": false
+    },
+    {
+      "college_id": "SPPU070",
+      "annual_fee": 92000,
+      "total_4yr_fee": 394000,
+      "scholarship": false
+    },
+    {
+      "college_id": "RIZVI071",
+      "annual_fee": 88000,
+      "total_4yr_fee": 376000,
+      "scholarship": false
+    },
+    {
+      "college_id": "XAVIER072",
+      "annual_fee": 80000,
+      "total_4yr_fee": 342000,
+      "scholarship": false
+    },
+    {
+      "college_id": "DPIT073",
+      "annual_fee": 105000,
+      "total_4yr_fee": 448000,
+      "scholarship": false
+    },
+    {
+      "college_id": "SAKEC074",
+      "annual_fee": 110000,
+      "total_4yr_fee": 470000,
+      "scholarship": false
+    },
+    {
+      "college_id": "THADOM075",
+      "annual_fee": 115000,
+      "total_4yr_fee": 492000,
+      "scholarship": false
+    },
+    {
+      "college_id": "VIVA076",
+      "annual_fee": 78000,
+      "total_4yr_fee": 334000,
+      "scholarship": false
+    },
+    {
+      "college_id": "DOMBIV077",
+      "annual_fee": 75000,
+      "total_4yr_fee": 320000,
+      "scholarship": false
+    },
+    {
+      "college_id": "BVCOE078",
+      "annual_fee": 95000,
+      "total_4yr_fee": 406000,
+      "scholarship": false
+    },
+    {
+      "college_id": "SINHGAD079",
+      "annual_fee": 92000,
+      "total_4yr_fee": 394000,
+      "scholarship": false
+    },
+    {
+      "college_id": "AISSMS080",
+      "annual_fee": 88000,
+      "total_4yr_fee": 376000,
+      "scholarship": false
+    },
+    {
+      "college_id": "GCOEK081",
+      "annual_fee": 36000,
+      "total_4yr_fee": 154000,
+      "scholarship": true
+    },
+    {
+      "college_id": "SITRC082",
+      "annual_fee": 80000,
+      "total_4yr_fee": 342000,
+      "scholarship": false
+    },
+    {
+      "college_id": "KBTCOE083",
+      "annual_fee": 58000,
+      "total_4yr_fee": 248000,
+      "scholarship": true
+    },
+    {
+      "college_id": "AMGOI084",
+      "annual_fee": 52000,
+      "total_4yr_fee": 222000,
+      "scholarship": true
+    },
+    {
+      "college_id": "GCOEAB085",
+      "annual_fee": 36000,
+      "total_4yr_fee": 154000,
+      "scholarship": true
+    },
+    {
+      "college_id": "JNEC086",
+      "annual_fee": 72000,
+      "total_4yr_fee": 308000,
+      "scholarship": true
+    },
+    {
+      "college_id": "MGSM087",
+      "annual_fee": 85000,
+      "total_4yr_fee": 362000,
+      "scholarship": false
+    },
+    {
+      "college_id": "DEOGIRI088",
+      "annual_fee": 65000,
+      "total_4yr_fee": 278000,
+      "scholarship": true
+    },
+    {
+      "college_id": "GHRCOE089",
+      "annual_fee": 92000,
+      "total_4yr_fee": 394000,
+      "scholarship": false
+    },
+    {
+      "college_id": "COEMPU090",
+      "annual_fee": 85000,
+      "total_4yr_fee": 362000,
+      "scholarship": false
+    },
+    {
+      "college_id": "PCCOER091",
+      "annual_fee": 90000,
+      "total_4yr_fee": 384000,
+      "scholarship": false
+    },
+    {
+      "college_id": "NBNSOE092",
+      "annual_fee": 82000,
+      "total_4yr_fee": 350000,
+      "scholarship": false
+    },
+    {
+      "college_id": "SPCOE093",
+      "annual_fee": 78000,
+      "total_4yr_fee": 334000,
+      "scholarship": false
+    },
+    {
+      "college_id": "MACOEM094",
+      "annual_fee": 88000,
+      "total_4yr_fee": 376000,
+      "scholarship": false
+    },
+    {
+      "college_id": "MITWPU095",
+      "annual_fee": 155000,
+      "total_4yr_fee": 632000,
+      "scholarship": false
+    },
+    {
+      "college_id": "ZEAL096",
+      "annual_fee": 78000,
+      "total_4yr_fee": 334000,
+      "scholarship": false
+    },
+    {
+      "college_id": "PVGCOE097",
+      "annual_fee": 85000,
+      "total_4yr_fee": 362000,
+      "scholarship": false
+    },
+    {
+      "college_id": "AISSMSP098",
+      "annual_fee": 85000,
+      "total_4yr_fee": 362000,
+      "scholarship": false
+    },
+    {
+      "college_id": "GHRIET099",
+      "annual_fee": 88000,
+      "total_4yr_fee": 376000,
+      "scholarship": false
+    },
+    {
+      "college_id": "RMDSSOE100",
+      "annual_fee": 80000,
+      "total_4yr_fee": 342000,
+      "scholarship": false
+    },
+    {
+      "college_id": "SRCOEM101",
+      "annual_fee": 88000,
+      "total_4yr_fee": 376000,
+      "scholarship": false
+    },
+    {
+      "college_id": "JDCOEM102",
+      "annual_fee": 82000,
+      "total_4yr_fee": 350000,
+      "scholarship": false
+    }
+  ]
+}

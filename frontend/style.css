@@ -1,0 +1,27 @@
+
+    body { font-family:'DM Sans',sans-serif; }
+    .font-display { font-family:'Syne',sans-serif; }
+    .hero-bg {
+      background: linear-gradient(135deg,#0f172a 0%,#1e3a5f 50%,#0f172a 100%);
+      background-size: 200% 200%;
+      animation: gradShift 8s ease infinite;
+    }
+    @keyframes gradShift {
+      0%  { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100%{ background-position: 0% 50%; }
+    }
+    .fade-in { animation: fadeIn 0.3s ease both; }
+    @keyframes fadeIn {
+      from { opacity:0; transform:translateY(6px); }
+      to   { opacity:1; transform:translateY(0); }
+    }
+    .college-item:nth-child(1){animation-delay:.03s} .college-item:nth-child(2){animation-delay:.06s}
+    .college-item:nth-child(3){animation-delay:.09s} .college-item:nth-child(4){animation-delay:.12s}
+    .college-item:nth-child(5){animation-delay:.15s}
+    .bar-fill { transition: width 0.5s cubic-bezier(.4,0,.2,1); }
+    ::-webkit-scrollbar { width:5px; }
+    ::-webkit-scrollbar-track { background:#f1f5f9; }
+    ::-webkit-scrollbar-thumb { background:#cbd5e1; border-radius:3px; }
+    input:focus, select:focus { outline:none; box-shadow:0 0 0 3px rgba(37,99,235,0.2); }
+    .pill-active { background:#eff6ff !important; color:#2563eb !important; border-color:#93c5fd !important; }
