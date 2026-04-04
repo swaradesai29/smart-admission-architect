@@ -190,7 +190,7 @@ let visibleCount = PAGE_SIZE;
 ══════════════════════════════════════════════════ */
 async function loadData() {
   try {
-    const res = await fetch('/data/data.json');
+    const res = await fetch('../data/data.json');
     if (!res.ok) throw new Error('not found');
     DB = await res.json();
   } catch(e) {
