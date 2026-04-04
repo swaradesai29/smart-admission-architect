@@ -29,5 +29,5 @@ Backend
 ## How to run
 
 Open:
+https://swaradesai29.github.io/smart-admission-architect/frontend/index.html)
 
-frontend/smart_admission_architect.html
